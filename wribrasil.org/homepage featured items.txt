@@ -1,0 +1,13 @@
+Technical guidelines based on the work I did (Christian) to implement this, as well as Huia's implementation. 
+
+Documenting this to facilitate implementation by other IOs for their country sites (all built on forked version of same original wri.org site)
+
+1.Featured Item content type
+
+2.View
+
+3.Removing current carousel panel
+
+4.Adding new view
+
+5.Design
