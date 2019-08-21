@@ -1,0 +1,5 @@
+D7 module for parsing the WRI rss feed. Generates a block with a set number of items from the feed displayed.
+
+Used in wricidades.org and other Ross Cities sites.
+
+https://github.com/wri/module-wri_in_the_news
