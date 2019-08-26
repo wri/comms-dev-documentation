@@ -2,7 +2,13 @@ The GCF Calculalor data visualization used as part of the publication:
 
 https://www.wri.org/green-climate-fund-calculators-how-decide-what-each-country-should-contribute
 
-And running from the Uploads directory: https://www.wri.org/upload/gcf-calculator-2/ 
+There are 2 versions:
+
+Version 1.0: running from the Uploads directory: https://www.wri.org/upload/gcf-calculator/
+
+Version 2.0: running from the Uploads directory: https://www.wri.org/upload/gcf-calculator-2/ 
+
+The data is stored on the wri.org AWS S3 bucket: https://wriorg.s3.amazonaws.com/upload/gcf-data/Data_Tool_Output.csv
 
 Developed by Kevin Lustig. 
 
