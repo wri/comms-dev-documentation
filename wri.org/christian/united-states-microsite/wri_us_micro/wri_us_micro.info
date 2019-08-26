@@ -1,0 +1,38 @@
+name = WRI United States Microsite
+description = Custom theme for WRI.org United States Pages microsite. Use this theme with ThemeKey, Context, and Views. Developed by WRI Comms Digital Team.
+core = 7.x
+base theme = wri
+
+regions[page_top]           = Page Top
+regions[page_bottom]        = Page Bottom
+
+regions[alert]              = Alert
+regions[global]             = Global
+regions[utility]            = Utility
+regions[header]             = Header
+regions[navigation]         = Navigation
+regions[below_navigation]   = Below Navigation
+
+regions[help]               = Help
+regions[global_map]         = Global Map
+
+regions[above_content]      = Above Content
+regions[content]            = Content
+regions[sidebar_first]      = Sidebar First
+regions[sidebar_second]     = Sidebar Second
+regions[below_content]      = Below Content
+
+regions[stay_connected]                = Stay Connected
+regions[stay_connected_sidebar_first]  = Stay Connected Sidebar First
+regions[stay_connected_sidebar_second] = Stay Connected Sidebar Second
+
+regions[footer]                        = Footer
+regions[footer_sidebar_first]          = Footer Sidebar First
+regions[footer_sidebar_second]         = Footer Sidebar Second
+
+regions[footer_elp]         = Email Landing Page Footer
+
+regions[admin_footer]       = Admin Footer
+
+stylesheets[all][] = css/wri_us_micro.css
+#scripts[] = js/foo.js
