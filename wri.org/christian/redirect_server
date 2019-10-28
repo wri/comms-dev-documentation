@@ -20,5 +20,5 @@ To add a new domain:
 * Add the domain to the load balancer
 * create an Apache conf file on the EC2 instance (/etc/apache2/sites-available)
 * restart apache (check syntax first)
-..* sudo apachectl configtest (check syntax)
-..* sudo service apache2 restart
+ * sudo apachectl configtest (check syntax)
+ * sudo service apache2 restart
