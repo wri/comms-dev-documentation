@@ -10,6 +10,10 @@ Version 2.0: running from the Uploads directory: https://www.wri.org/upload/gcf-
 
 The data is stored on the wri.org AWS S3 bucket: https://wriorg.s3.amazonaws.com/upload/gcf-data/Data_Tool_Output.csv
 
+IMPORTANT NOTE: Excel and LibreOffice Calc (and probably every other spreadsheet tool) add a 'new line' to the end of file 
+on save/export, which results in an empty row. Remove it from the CSV to prevent the tool from choking: 
+Open in a code editor like Sublime and delete the last empty row.
+
 Developed by Kevin Lustig. 
 
 Project repo:
