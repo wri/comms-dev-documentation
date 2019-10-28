@@ -1,0 +1,22 @@
+# Redirect Server
+
+The "Redirect Server" is a tool that routes various WRI domains to their endpoint. 
+The most common usage is for domains that need to point to content within a site:
+mydomain.org -> otherdomain.org/somepage
+DNS can't be configured to send traffic to the root, so we're redirecting via this tool.
+
+## Confguration
+The server consists of an AWS Ubuntu EC2 instance (named "redirect_server') with a EC2 Application Load Balancer 
+in front of it (named redirect_service). 
+
+* The load balancer provides auto-renweing security certificates vis AWS ACM
+* The EC2 server routes the domains via Apache webserver
+
+To add a new domain:
+
+* Set up a cert with ACM
+* Add the domain to the load balancer
+* create an Apache conf file on the EC2 instance (/etc/apache2/sites-available)
+* restart apache (check syntax first)
+  * sudo apachectl configtest (check syntax)
+  * sudo service apache2 restart
