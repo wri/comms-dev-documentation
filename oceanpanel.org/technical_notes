@@ -1,0 +1,23 @@
+Notes from Jim Morrison at PGA Branding (in response to Christian A)
+--------------------------------------------------------------------
+
+Description of any custom modules - No custom/modified modules are being used. 
+
+I noticed 2 Drupal 7 modules in the /modules dir: views and common_body_classes, are they being used in some way? -  No, these should be removed. 
+
+Description of custom functionality in the theming layer - 
+There is no major custom functionality or preprocessing of templates at play. The theme is based on the Bulma theme - https://www.drupal.org/project/bulma. Please see notes below and let me know if you have any questions or need more detail. 
+
+TEMPLATES
+The templates are mainly just the theme defaults - There are some custom Twig templates for views/view blocks for custom content types - Panel Members/Blue Papers/News Articles etc. Twig debug can help show which templates are being loaded where.
+
+JS 
+There's some custom Javascript/Jquery at play in the assets/bulma.js file, It's quite simple and mainly taking care of animation/responsive video/toggling dropdowns etc.  
+The /assets/waves.js file is used for the animated sea effect on the homepage, this also includes three.js - https://threejs.org/
+
+CSS 
+Css is compiled down from the /assets/bulma.style.scss to /assets/bulma.style.css. There are no SCSS partials, all the SCSS is contained in /assets/bulma.style.scss.
+
+CONTENT 
+Generally the page content is editable using the Page Manager and Panels modules  -  https://pantheon.io/drupal-8/panels-and-page-manager.
+Custom content types - Panel Members, Blue Papers, Publications, News Articles, are being displayed using respective Views. 
