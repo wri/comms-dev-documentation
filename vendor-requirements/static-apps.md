@@ -8,7 +8,7 @@ Testing: multiplatform testing using Browserstack or similar tools.
 Final code test should be on the Pantheon "multidev" instance to ensure full compatibility with our production environment. 
 WRI will merge to master and make all deployments. 
 
-Requirements: static files with no server dependencies. All code needs to be compiled to run as js. 
+Requirements: static files with no server dependencies. 
 External libraries to be pulled in via cdn. 
 Essentially, the pages need to be flat files that could run locally in any browser.
 
