@@ -16,4 +16,6 @@ Browser compatibility: modern browsers across platforms (Chrome, FF, Safari, Edg
 
 Google Tag Manager or Google Analytics to be implemented to match the main site.
 
+GDPR cookie notice tomatch the main site.
+
 Design: files should include a header and footer to match the main site, and share design elements to match to the main site. Pages should be fully responsive with an effective mobile UX.
