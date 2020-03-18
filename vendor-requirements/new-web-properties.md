@@ -13,15 +13,15 @@ New Drupal Instance 
 
 -   New Digital Property Requirements 
 
--   Domain name policy 
+    -   Domain name policy 
 
--   Lifecycle plan 
+    -   Lifecycle plan 
 
--   Maintenance plan 
+    -   Maintenance plan 
 
--   Designated content manager 
+    -   Designated content manager 
 
--   Open source (MIT license) for all custom code, available as public repositories  
+    -   Open source (MIT license) for all custom code, available as public repositories  
 
 -   Technical Requirements 
 
