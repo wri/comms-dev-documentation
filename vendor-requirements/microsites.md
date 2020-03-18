@@ -12,7 +12,8 @@ Microsites are a collection of pages and views that have their own design, menu
 
 There are limits to the customized experience: when the user follows a link to a page on the main site, they will see content that uses the site's master theme. See below under "Views" for a solution when you need content from the main site to be displayed on a page with the microsite's theme. 
 
-Building it in Drupal 
+Building it in Drupal
+---------------------
 
 -   Currently these projects are built in Drupal 7 using ThemeKey along with Context and Views. 
 
@@ -40,7 +41,8 @@ Webfonts: we encourage the use of opensource webfonts, but you can also use the
 
 -   We use a continuous integration environment. We will be deploying maintenance and security patches as well as other changes to the site while your work is in progress. We recommend you rebase your branch before requesting a merge into Master. You can use the Pantheon dashboard to merge upstream changes, as well as making backups of your "multidev" environment. 
 
-Development Process: 
+Development Process:
+--------------------
 
 The Digital team will create a working branch of the site's codebase and spin up a live instance of the site based on that branch (we use Pantheon).  
 
@@ -48,6 +50,7 @@ All of your work can be previewed there, and we can backport the latest content
 
 When it's ready to deploy, we will merge it into the Master branch and test it with you on our Dev environment.  
 
-Guidelines: 
+Guidelines:
+-----------
 
 We recommend a "mobile first" approach to layout and design. This helps narrow the focus to the essentials, which often helps the overall design even in wider or desktop views.
