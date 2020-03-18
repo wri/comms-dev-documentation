@@ -9,7 +9,8 @@ World Resources Institute Digital Communications Team 
 
 [ add in performance: Google Lighthouse score minimum 60-70) 
 
-New Drupal Instance 
+New Drupal Instance
+-------------------
 
 -   New Digital Property Requirements 
 
@@ -25,25 +26,25 @@ New Drupal Instance 
 
 -   Technical Requirements 
 
--   Drupal 8, preferably with Drupal front-end 
+    -   Drupal 8, preferably with Drupal front-end 
 
--   All traffic over SSL 
+    -   All traffic over SSL 
 
--   Analytics/GTM (using WRI Comms' GA account) 
+    -   Analytics/GTM (using WRI Comms' GA account) 
 
--   W3C AA accessibility 
+    -   W3C AA accessibility 
 
--   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  
+    -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  
 
--   GDPR compliance: privacy policy and cookie use notice 
+    -   GDPR compliance: privacy policy and cookie use notice 
 
--   SASS/SCSS or straight CSS 
+    -   SASS/SCSS or straight CSS 
 
--   Documentation: 
+    -   Documentation: 
 
--   Technical documentation for all custom functionality 
+        -   Technical documentation for all custom functionality 
 
--   Site admin documentation for content editors and site managers 
+        -   Site admin documentation for content editors and site managers 
 
 -   Preferences 
 
