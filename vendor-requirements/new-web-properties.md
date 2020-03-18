@@ -48,39 +48,39 @@ New Drupal Instance
 
 -   Preferences 
 
--   Hosted on Pantheon in the WRI account 
+    -   Hosted on Pantheon in the WRI account 
 
--   If not we will need access to the code repository 
+        -   If not we will need access to the code repository 
 
--   If not: global CDN for caching 
+        -   If not: global CDN for caching 
 
--   Open source webfonts (i.e. not Typekit) 
+    -   Open source webfonts (i.e. not Typekit) 
 
--   Blog syndication via JSON 
+    -   Blog syndication via JSON 
 
--   Drupal theme and site building: 
+    -   Drupal theme and site building: 
 
--   Mobile First design approach 
+        -   Mobile First design approach 
 
--   Atomic design principles 
+        -   Atomic design principles 
 
--   If using a front-end framework: Bootstrap 4 
+        -   If using a front-end framework: Bootstrap 4 
 
--   Drupal Layout Builder 
+        -   Drupal Layout Builder 
 
--   Drupal modules: 
+    -   Drupal modules: 
 
--   Limit community modules to bare minimum. Do include the following: 
+        -   Limit community modules to bare minimum. Do include the following: 
 
--   Drupal Layout Builder (part of Drupal 8.7 available as of May 2019 <https://www.drupal.org/core/experimental> -- see also <https://dri.es/why-drupal-layout-builder-is-so-unique-and-powerful>) 
+            -   Drupal Layout Builder (part of Drupal 8.7 available as of May 2019 <https://www.drupal.org/core/experimental> -- see also <https://dri.es/why-drupal-layout-builder-is-so-unique-and-powerful>) 
 
--   Redirect <https://www.drupal.org/project/redirect> 
+            -   Redirect <https://www.drupal.org/project/redirect> 
 
--   Google Tag Manager <https://www.drupal.org/project/google_tag> 
+            -   Google Tag Manager <https://www.drupal.org/project/google_tag> 
 
--   Style Guide [https://www.drupal.org/project/styleguide\
+            -   Style Guide [https://www.drupal.org/project/styleguide\
     ](https://www.drupal.org/project/styleguide)  
 
--   Where possible, use existing tools (Views or the Context module) and theme templates before writing custom modules for functionality 
+        -   Where possible, use existing tools (Views or the Context module) and theme templates before writing custom modules for functionality 
 
 -   Mobile First approach to design and layout. This helps narrow the focus to the essentials, which aids the overall design even in wider/desktop views
