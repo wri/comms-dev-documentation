@@ -9,7 +9,7 @@ World Resources Institute Digital Communications Team 
 
 [ add in performance: Google Lighthouse score minimum 90 mobile + desktop ]
 
-[ add in security test: SSL Labs https://www.ssllabs.com/index.html min score A 
+[ add in security test: SSL Labs https://www.ssllabs.com/index.html min score A ]
 
 New Drupal Instance
 -------------------
