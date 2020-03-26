@@ -7,7 +7,7 @@ World Resources Institute Digital Communications Team 
 
 [ add in testing requirements: PHPUnit, WCAG AA, cross-browser testing, min browser version support, no deprecated code, no php or console errors/warnings ] 
 
-[ add in performance: Google Lighthouse score minimum 90 mobile + desktop ]
+[ add in performance: Google Lighthouse score minimum 90 mobile + desktop, load testing Drupal and WP with BlazeMeter https://pantheon.io/docs/guides/load-testing-with-blazemeter]
 
 [ add in security test: SSL Labs https://www.ssllabs.com/index.html min score A ]
 
