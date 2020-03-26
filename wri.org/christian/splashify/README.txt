@@ -1,3 +1,19 @@
+WRI CUSTOMIZATION NOTES
+-----------------------
+
+Custom work is in 2 parts: the file /js/custom.js and the following CSS additions to the stie theme file:
+
+/* adjustments for splashify modal to appear over content */
+#colorbox { z-index: 3000; top: 180px !important; max-width: 100%; }
+div#colorbox:focus { outline: none; }
+#cboxWrapper { max-width: 100%; }
+#cboxContent { max-width: 100%; }
+#cboxClose { margin-top: -946px; margin-left: 0; border-radius: 0; background-color: #00427a; }
+#cboxLoadedContent iframe { width:100%; height: 290px; }
+#cboxLoadedContent { max-width: 100%; }
+#modalContent { width: 100%; height: auto; }
+
+
 DRUPAL SPLASHIFY MODULE
 ------------------------
 Maintainers:
