@@ -1,4 +1,4 @@
-# Static HTML
+# Static HTML Pages
 
 ## Example from Static Pages built for Ocean by Cast from Clay
 
