@@ -15,4 +15,6 @@ WRI In the News https://github.com/wri/module-wri_in_the_news
 Drupal 7 Themes
 ===============
 
+Aqueduct Subtheme (for WRI.org) https://github.com/wri/comms-dev-documentation/tree/master/wri.org/wil/aqueduct-theme/aqueduct
+
 US Microsite Subtheme (for WRI.org) https://github.com/wri/theme-wri_us_micro
