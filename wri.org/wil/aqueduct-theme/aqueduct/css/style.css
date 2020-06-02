@@ -1,0 +1,918 @@
+@charset "utf-8";
+/*
+  Sitename: https://wri.org/aqueduct
+
+  style.css
+  Core styles for Aqueduct pages "microsite".
+*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~ Base Styles ~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ */
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-size: 62.5%; /* 0.625 * 16px ~ 10px */
+    line-height: 1.5em;
+    font-family: "acumin-pro", sans-serif;
+    color: #4A4A4A;
+}
+
+img {
+    max-width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.center-content {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p, ul, ol {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p a{
+    color: #0099cc !important;
+}
+
+
+hr{
+    border: 0.1px dotted #f3f3f3;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.node.view-mode-aqueduct_landing_page h2{
+    color: #0099cc;
+    font-weight: 100;
+    line-height: 34px;
+    font-size: 24px !important;
+}
+
+.node.view-mode-aqueduct_landing_page h2 a{
+    color: #0099cc;
+}
+
+
+h3{
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+
+.field.field-name-node-link {
+    padding: 12px;
+    background-color: #003f6a;
+    text-align: center;
+    width: 120px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    font-size: 14px;
+}
+
+.field.field-name-node-link a {
+    color: white;
+}
+
+.field.field-name-post-date{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.field.field-name-content-type{
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+ul.pager{
+    padding: 75px 0px;
+}
+
+.pager-item {
+    font-size: 0.9em;
+}
+
+
+li.pager-first.first {
+    background-color: #0099cc;
+}
+
+li.pager-previous {
+    background-color: #0099cc;
+}
+
+li.pager-next {
+    background-color: #0099cc;
+}
+
+li.pager-last.last {
+    background-color: #0099cc;
+}
+
+li.pager-first.first a {
+    color: white;
+    padding: 10px;
+}
+
+li.pager-last.last a {
+    color: white;
+    padding: 10px;
+}
+
+li.pager-previous a {
+    color: white;
+    padding: 10px;
+}
+
+li.pager-next a {
+    color: white;
+    padding: 10px;
+}
+
+li.pager-current {
+    border-bottom: solid #0099cc 5px;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+/* Homepage block before footer */
+
+.aqueduct-alliance-homepage {
+    clear: both;
+}
+
+@media screen and (min-width: 501px){
+
+.aqueduct-alliance-homepage {
+    padding: 50px 0px;
+}
+}
+
+
+
+/* hide the site-wide donate button */
+
+#block-boxes-donate-button{
+    display: none;
+}
+
+
+/* GDPR Notice */
+
+#cookieNotice {
+    font-size: 1.5em !important;
+}
+
+#cookieNotice a {
+    color: #e3810a !important;
+}
+
+
+/* General Media Queries */
+
+
+@media screen and (max-width: 990px){
+.center-content{
+    padding: 0 50px;
+}
+
+.aqueduct-logo{
+    margin: 0px;
+}
+}
+
+
+@media screen and (max-width: 800px){
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.node.view-mode-aqueduct_landing_page h2{
+    font-size: 18px !important;
+}
+
+.item-list .pager{
+
+    text-align: left;
+}
+
+li.pager-first.first {
+    display: none !important;
+}
+
+li.pager-previous {
+    display: none !important;
+}
+
+li.pager-next {
+    display: none !important;
+}
+
+li.pager-last.last {
+    display: none !important;
+}
+}
+
+@media screen and (max-width: 500px){ /*Medio Query at which images
+are hidden across all pages*/
+
+h3{
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.views-row{
+    height: unset !important;
+}
+
+.views-row figure.ds-figure {
+    display: none !important;
+    float: none !important;
+}
+
+.views-row .ds-content{
+    width: 100% !important;
+    float: none !important;
+}
+}
+
+@media screen and (max-width: 400px){
+.item-list .pager li {
+    padding: 0.1em;
+}
+}
+
+
+/* Main Navigation */
+
+nav#main-navigation{
+    margin: 0 25px;
+}
+
+.aqueduct-logo{
+    width: 200px;
+    float: left;
+    padding: 15px;
+    margin: 0px 25px;
+}
+
+.aqueduct-responsive-menu{
+    float: right;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+
+.block-menu-block h2{
+    display: none;
+}
+
+.menu-name-menu-aqueduct ul li.leaf {
+    list-style-image: none;
+}
+
+.menu-name-menu-aqueduct ul.menu {
+    border: none;
+    list-style: none;
+    text-align: left;
+    float: right;
+    line-height: 9px;
+}
+
+.menu-name-menu-aqueduct ul.menu li {
+	  color: #4A4A4A;
+	  font-family: "acumin-pro", sans-serif;
+	  font-size: 13px;
+	  font-weight: 600;
+	  letter-spacing: 0.93px;
+	  text-align: right;
+	  text-transform: uppercase;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    top: 16px;
+}
+
+.menu-name-menu-aqueduct ul.menu li a {
+	  text-decoration: none;
+}
+
+.menu-name-menu-aqueduct ul.menu li a.active {
+    border-bottom: solid 5px #0099cc;
+    padding: 16px 8px;
+}
+
+.menu-name-menu-aqueduct ul.menu li a{
+    color: black;
+}
+
+@media screen and (max-width: 950px){
+
+.aqueduct-logo{
+    margin: 0px !important;
+}
+}
+
+
+@media screen and (max-width: 840px){
+
+.aqueduct-logo{
+    float: none;
+}
+
+.aqueduct-responsive-menu{
+    display: block;
+}
+
+.menu-name-menu-aqueduct ul.menu {
+    float: none;
+}
+
+.menu-name-menu-aqueduct ul.menu li {
+	  text-align: left;
+    display: block;
+}
+
+
+.menu-name-menu-aqueduct ul.menu li a.active {
+    border-bottom: solid 5px #0099cc;
+    padding: 0;
+}
+}
+
+
+/* Sub Navigation */
+
+.menu-name-menu-aqueduct.menu-level-2 ul li {
+    display: inline-block;
+}
+
+
+.region.region-subnav ul.menu {
+    text-align: center;
+    float: none;
+}
+
+.region.region-subnav ul.menu li a{
+    color: white;
+}
+
+.region.region-subnav ul.menu li a.active {
+    border-bottom: solid 5px #0099cc;
+    padding: 8px;
+}
+
+@media screen and (max-width: 400px){
+.menu-name-menu-aqueduct.menu-level-2 ul li {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+}
+
+
+/* Footer Navigation */
+
+footer{
+    background-color: #f3f3f3;
+    height: 100%;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+
+.aqueduct-logo-footer{
+    width: 150px;
+    padding: 25px 0px;
+}
+
+footer ul li.leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+.menu-name-menu-aqueduct-footer-menu ul li{
+    margin: 0;
+}
+
+
+/* Page Headers */
+
+#main-header {
+    padding: 1em;
+    color: #fff;
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clear: right;
+    margin-bottom: 50px;
+}
+
+h1.title{
+    font-size: 5.5em;
+    font-weight: 100;
+    text-align: center;
+}
+
+@media screen and (max-width: 960px){
+h1.title{
+    font-size: 4em;
+}
+}
+
+/* Homepage Header */
+
+.aqueduct-homepage-hero{
+    margin: 100px 0px;
+    font-family: "acumin-pro-condensed", sans-serif;
+}
+
+.aqueduct-intro{
+
+    font-size: 44px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    max-width: 75%
+    margin: 0 auto;
+}
+
+.aqueduct-intro-sub{
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+#aqueduct-intro-sections{
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 55px;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    width: 55%;
+    display: flex;
+    margin: 0 auto 25px auto;
+}
+
+div#aqueduct-intro-sections div {
+    margin: 0 25px;
+}
+
+.aqueduct-intro-learn{
+    font-family: "acumin-pro";
+    font-size: 16px;
+    font-weight: 500;
+    border: solid white 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.aqueduct-intro-learn a{
+    color: white !important;
+}
+
+@media screen and (max-width: 650px){
+#aqueduct-intro-sections{
+    width: 100%;
+}
+}
+
+
+/* Home Page - Aqueduct Tools */
+
+.aqueduct-tools .views-row {
+    display: inline-block;
+    width: calc(49% - 25px);
+    height: 275px;
+    margin: 0px 25px 50px 0px;
+    vertical-align: top;
+}
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page .ds-content {
+    float: right;
+    width: calc(80% - 125px);
+}
+
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page figure.ds-figure {
+    float: left;
+    margin-top: 5%;
+    width: 175px;
+}
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page .ds-figure img {
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    width: 175px;
+    float: left;
+    box-shadow: rgba(116,116,116,0.7) 0 1px 4px;
+    padding: 2px;
+}
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page .field.field-name-field-website {
+    padding: 12px;
+    background-color: #003f6a;
+    text-align: center;
+    width: 120px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    font-size: 14px;
+}
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page .field.field-name-field-website a{
+    color: white;
+}
+
+
+@media screen and (max-width: 960px){
+.aqueduct-tools .views-row {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 250px;
+}
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page .ds-content {
+    float: right;
+    width: 60%;
+}
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page figure.ds-figure {
+    float: left;
+    width: 40%;
+    padding-right: 25px;
+}
+
+.node.node-resource-wri-website.view-mode-aqueduct_landing_page .ds-figure img {
+    height: auto;
+    width: 100%;
+}
+}
+
+
+/* Home Page - Aqueduct More Tools Block */
+
+.aqueduct-more-tools{
+    height: 200px;
+    margin: 50px 0px;
+    background: linear-gradient(135deg, #2B54BB 0%, #039FDC 100%);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+.aqueduct-more-tools .content{
+    padding: 25px 0px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.aqueduct-more-tools .content p{
+    font-size: 16px;
+}
+
+.aqueduct-more-tools .content hr{
+    border: solid 1px #039fdc;
+    display: block;
+    height: 2px;
+    width: 31px;
+    margin-left: 0px;
+}
+
+.aqueduct-more-tools div {
+    display: inline-block;
+}
+
+.aqueduct-more-tools .views-row {
+    padding: 0px 25px;
+
+}
+
+.aqueduct-more-tools .view-header {
+    width: 20%;
+    padding: 15px;
+    color: white;
+}
+
+.aqueduct-more-tools .views-row img {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 960px){
+.aqueduct-more-tools {
+    height: 100%;
+}
+
+.aqueduct-more-tools div {
+    display: block;
+}
+
+.aqueduct-more-tools .views-row {
+    padding: 0px 25px;
+    display: inline-block;
+    width: calc(33% - 25px);
+}
+
+.aqueduct-more-tools .content{
+    padding: 25px 50px;
+}
+
+.aqueduct-more-tools .views-row img {
+    width: 100%;
+    object-fit: scale-down;
+    -o-object-fit: scale-down;
+}
+
+.aqueduct-more-tools .view-header {
+    width: 100%;
+}
+}
+
+
+/* Home Page Featured Block*/
+
+
+.aqueduct-featured-landing{
+    margin: 100px 0px;
+}
+
+.aqueduct-featured-landing .ds-content{
+    float: right;
+    width: 60%;
+    margin: 20px 0px;
+}
+
+.aqueduct-featured-landing figure.ds-figure{
+    float: left;
+    margin-top: 5%;
+    width: 40%;
+    padding-right: 25px;
+}
+
+.aqueduct-featured-landing figure.ds-figure img{
+    box-shadow: rgba(116,116,116,0.7) 0 1px 4px;
+    padding: 2px;
+
+}
+
+.aqueduct-featured-landing .field.field-name-node-link{
+    padding: 12px;
+    text-align: center;
+    width: 130px !important;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    font-size: 14px;
+    height: 40px !important;
+    border: 1px solid #2B54BB !important;
+    background: none !important;
+}
+
+
+.aqueduct-featured-landing .field.field-name-node-link a{
+    color: #003f6a !important;
+}
+
+
+/* Blog Page */
+
+.node.node-blog-post.view-mode-aqueduct_landing_page .ds-content{
+    float: left;
+    width: 60%;
+    margin: 20px 0px;
+}
+
+.node.node-blog-post.view-mode-aqueduct_landing_page figure.ds-figure{
+    float: right;
+    margin-top: 5%;
+    margin-left: 25px;
+    width: calc(40% - 25px);
+}
+
+.node.node-blog-post.view-mode-aqueduct_landing_page figure.ds-figure img{
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    box-shadow: rgba(116,116,116,0.7) 0 1px 4px;
+    padding: 2px;
+}
+
+
+@media screen and (max-width: 960px){
+.node.node-blog-post.view-mode-aqueduct_landing_page figure.ds-figure img{
+    height: unset;
+    width: 100%;
+}
+}
+
+/* Publications Page */
+
+
+.aqueduct-publications .views-row{
+    height: 300px;
+
+}
+
+.node.node-publication.view-mode-aqueduct_landing_page .ds-content{
+    float: right;
+    width: calc(100% - 200px);
+}
+
+.node.node-publication.view-mode-aqueduct_landing_page header.ds-header{
+    float: left;
+    width: 200px;
+    margin-top: 4%;
+}
+
+.node.node-publication.view-mode-aqueduct_landing_page header.ds-header img{
+    box-shadow: rgba(116,116,116,0.7) 0 1px 4px;
+    padding: 2px;
+}
+
+
+@media screen and (max-width: 800px){
+
+.aqueduct-publications .views-row{
+    height: unset;
+
+}
+
+.node.node-publication.view-mode-aqueduct_landing_page .ds-content{
+    float: none;
+    width: 100%;
+}
+
+.node.node-publication.view-mode-aqueduct_landing_page header.ds-header{
+    float: none;
+    width: 200px;
+    margin: 50px 0px 25px 0px;
+}
+}
+
+
+/* Data Page */
+
+.aqueduct-data .view-mode-aqueduct_landing_page .ds-content {
+    float: right;
+    width: 70%;
+}
+
+.aqueduct-data .view-mode-aqueduct_landing_page figure.ds-figure{
+    float: left;
+    width: calc( 30% - 25px);
+    margin-right: 25px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    margin-top: 3%;
+}
+
+.aqueduct-data .view-mode-aqueduct_landing_page figure.ds-figure img{
+    box-shadow: rgba(116,116,116,0.7) 0 1px 4px;
+    padding: 2px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+
+.aqueduct-data .view-mode-aqueduct_landing_page iframe {
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(116,116,116,0.7) 0 1px 4px;
+    padding: 2px;
+}
+
+
+/* Experts Page */
+
+
+.aqueduct-experts .views-row {
+    height: 180px;
+}
+
+.aqueduct-experts figure.l-photo {
+    float: left;
+    padding-right: 25px;
+}
+
+.aqueduct-experts figure.l-photo img{
+    box-shadow: rgba(116,116,116,0.7) 0 1px 4px;
+    padding: 2px;
+}
+
+
+.aqueduct-experts a, a:link, a:visited {
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.field.field-name-field-internal-function{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 950px){
+
+.aqueduct-experts .views-row {
+    display: inline-block;
+    width: calc(50% - 50px);
+    vertical-align: top;
+    height: unset;
+}
+}
+
+@media screen and (max-width: 500px){
+
+.aqueduct-experts .views-row {
+    height: unset;
+    margin-bottom: 25px;
+}
+
+.aqueduct-experts figure.l-photo {
+    float: none;
+    height: unset;
+}
+}
+
+.aqueduct-experts figure.l-photo img{
+    height: unset;
+}
+}
+
+
+/* User Stories Page */
+
+article.node.node-aqueduct-image.view-mode-full .field.field-name-field-featured-image {
+    margin: 25px auto;
+    width: 200px;
+}
+
+.aqueduct-user-stories .field.field-name-field-featured-image {
+    margin: 25px auto;
+    width: 50%;
+}
+
+.aqueduct-user-stories .views-row {
+    margin-bottom: 25px;
+}
+
+.aqueduct-user-stories img {
+    max-width: 100%;
+    height: 100px;
+    object-fit: scale-down;
+    -o-object-fit: scale-down;
+}
+
+@media screen and (min-width: 950px){
+
+.aqueduct-user-stories .views-row {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    padding: 0 25px;
+}
+}

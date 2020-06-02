@@ -1,0 +1,25 @@
+name = aqueduct
+description = Base minimal theme built from baretheme7 https://github.com/StudioZut/baretheme7
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[navbar] = Navigation
+regions[subnav] = Sub Navigation
+regions[sidebar] = Sidebar
+regions[content_top] = Top Content
+regions[content] = Main Content
+regions[content_bottom] = Bottom Content
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = favicon
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/script.js
+
+screenshot = screenshot.png
