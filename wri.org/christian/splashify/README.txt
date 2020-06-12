@@ -1,7 +1,7 @@
 WRI CUSTOMIZATION NOTES
 -----------------------
 
-Custom work is in 2 parts: the file /js/custom.js and the following CSS additions to the stie theme file:
+Custom work is in 2 parts: the file /js/custom.js and the following CSS additions to the site theme file:
 
 /* adjustments for splashify modal to appear over content */
 #colorbox { z-index: 3000; top: 180px !important; max-width: 100%; }
