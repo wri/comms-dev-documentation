@@ -1,7 +1,7 @@
 Research Server (for custom long-form reports and publications) research.wri.org
 ================================================================================
 
-[ July 2020: this needs ot be re-written now that the original WRR Food site is live and add in what we learned from the GFR microsite challenges ]
+[ July 2020: this needs ot be re-written now that the original WRR Food site is live and add in what we learned from the GFR microsite challenges -- and inlcude non-wri.org specific parts of the guidelines for microsites on wri.org ]
  
 Technical requirements and guidelines, documentation on the new “pubs” server (currently used for WRR Food and GFU) -- notes the user docs are stored in the One Drive folder for content editors 
 
@@ -10,8 +10,8 @@ GFR – Technical Requirements for RFP
 
 Development: We anticipate development being one of the larger areas of work in this effort. Not only does the GFU need to be built in a way that is responsive and performance-minded across devices, it needs to be integrated into an *existing* Drupal 8 environment (i.e., wrr-food.wri.org). This Drupal instance is intended to house select reports and publications from WRI, each with its own Drupal theme and requirements. The GFU will be the second such report and will require its own Drupal theme that will be applied to all content within a defined path (e.g., /global-forest-update/etc). Site customizations need to be limited to the theming layer or otherwise applied only to the content of the GFU, not site-wide. WRI has in-house Drupal development expertise that can advise and assist in this process. WRI will provide access to the environment and a dev instance on Pantheon (our standard host), as well as guidelines for creating "microsites" within the existing site. Preference will be given to vendors who are familiar & comfortable with working in this mode and are well-versed in Drupal. 
 
-WRR Food – Technical Requirements for RFP 
-
+WRR Food – Technical Requirements for RFP
+-----------------------------------------
  
 ### Overview 
 
