@@ -1,5 +1,7 @@
 Research Server (for custom long-form reports and publications) research.wri.org
 ================================================================================
+
+[ July 2020: this needs ot be re-written now that the original WRR Food site is live and add in what we learned from the GFR microsite challenges ]
  
 Technical requirements and guidelines, documentation on the new “pubs” server (currently used for WRR Food and GFU) -- notes the user docs are stored in the One Drive folder for content editors 
 
