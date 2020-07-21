@@ -1,7 +1,7 @@
-Guidelines for Microsites
-=========================
+Guidelines for Microsites on WRI.org
+====================================
 
-(draft Aug 2019) 
+(draft July 2020) 
 
 [ add in notes on: no sitewide logic in custom modules, and point to main vendor guidelines doc for other aspects, including testing requirements ] 
 
