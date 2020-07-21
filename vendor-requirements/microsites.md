@@ -37,6 +37,8 @@ Webfonts: we encourage the use of opensource webfonts, but you can also use the
 
 -   Content types and taxonomy: we prefer for you to use our existing content types. Depending on what you need to build, we will work with you to ensure the microsite's content doesn't interfere with the main site content. We can also work with you to create taxonomy vocabularies or add fields to existing content types if necessary. 
 
+-   Site files: files for site content should be set to save within a subdirectory, named to match the microsite (i.e. files/agriculture/ for a microsite "Micro Agriculture in Developing Economies")
+
 -   PHP 7.2+ 
 
 -   We use a continuous integration environment. We will be deploying maintenance and security patches as well as other changes to the site while your work is in progress. We recommend you rebase your branch before requesting a merge into Master. You can use the Pantheon dashboard to merge upstream changes, as well as making backups of your "multidev" environment. 
