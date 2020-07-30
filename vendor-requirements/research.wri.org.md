@@ -1,7 +1,7 @@
 Research Server (for custom long-form reports and publications) research.wri.org
 ================================================================================
 
-[ July 2020: this needs ot be re-written now that the original WRR Food site is live and add in what we learned from the GFR microsite challenges -- and inlcude non-wri.org specific parts of the guidelines for microsites on wri.org ]
+[ July 2020: this needs ot be re-written now that the original WRR Food site is live and add in what we learned from the GFR microsite challenges -- and include non-wri.org specific parts of the guidelines for microsites on wri.org ]
  
 Technical requirements and guidelines, documentation on the new “pubs” server (currently used for WRR Food and GFR) -- note the user docs are stored in the One Drive folder for content editors 
 
@@ -22,7 +22,9 @@ A Drupal 8 site with multliple themes using the theme negotiator. Vendor will pr
 
 Page layout and design: use Layout Builder, Views and theme template files to control page layout. This site will be used for additional content in the future and needs to be built in as straightforward and manageable way as possible.  
 
-Content type: a new content type named “publications”. WRI will provide information on fields, field names and other requirements. 
+Content type: a new content type named “publications”. WRI will provide information on fields, field names and other requirements. Ensure comments are disabled.
+
+File Organization: set sites files (for content) to upload to a subfolder (i.e. /agriculture for a report on agriculture)
 
 Theme control: WRI will provide an “empty” Drupal 8 instance with the following functionality: 
 
