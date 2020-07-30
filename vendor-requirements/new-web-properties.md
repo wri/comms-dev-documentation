@@ -72,6 +72,8 @@ New Drupal Instance
 
         -   Drupal Layout Builder 
 
+    -   Users and Comments: disable comments across all content types, disable anonymous user account requests
+    
     -   Drupal modules: 
 
         -   Limit community modules to bare minimum. Do include the following: 
