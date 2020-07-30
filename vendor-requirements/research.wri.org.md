@@ -32,6 +32,8 @@ Theme control: WRI will provide an “empty” Drupal 8 instance with the follow
 
 Feed aggregation: titles and teasers from external content (rss feeds from wri.org) to be displayed as blocks within the site content.  
 
+Users: ensure new user acount requests are not open to anonymous users
+
 Modules: please include Google Analytics, Google Tag Manager, and Style Guide. Please keep module use to a minimum, and run any custom functionality within the theme files. 
 
  
