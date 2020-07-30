@@ -5,6 +5,8 @@ World Resources Institute Digital Communications Team 
 
 [ add in: retain base content types, gdpr, gtm, guidelines on social sharing modules ] 
 
+[ ensure comments are disabled ]
+
 [ add in testing requirements: PHPUnit, WCAG AA, cross-browser testing, min browser version support, no deprecated code, no php or console errors/warnings ] 
 
 [ add in performance: Google Lighthouse score minimum 90 mobile + desktop, load testing Drupal and WP with BlazeMeter https://pantheon.io/docs/guides/load-testing-with-blazemeter]
