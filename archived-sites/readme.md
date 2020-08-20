@@ -1,7 +1,7 @@
 Notes on Archived Sites
 =======================
 
-Currently (March 2020) moving older archived sites from a backup drive to AWS S3. Will post bucket name and links here.
+Archived site files are stored on AWS S3: https://s3.console.aws.amazon.com/s3/buckets/wri-archived-sites/?region=us-west-2&tab=overview
 
 Repos for flattened sites:
 
