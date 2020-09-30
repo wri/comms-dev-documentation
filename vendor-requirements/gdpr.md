@@ -6,7 +6,9 @@ Custom module for Drupal 7 sites: <https://github.com/wri/module-gdpr_notice>
 Other Sites
 -------------------------
 
-The simplest implementation of GDPR that meets our current requirements is to drop this js solution into the page template for the <head> section: <https://github.com/AOEpeople/cookie-notice> via 
+The simplest implementation of GDPR that meets our current requirements uses a lightweight js solution: <https://github.com/AOEpeople/cookie-notice> 
+
+Include the cookie.notice.js file in your site files, and add the following snippet into the page template for the <head> section:   
 ```
 <script type="text/javscript" src="path/to/the/file/cookie.notice.js"></script>.  
 ```
