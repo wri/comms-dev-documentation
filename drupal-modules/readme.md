@@ -11,6 +11,8 @@ Terms Description https://github.com/wri/module_wri_terms_description
 
 WRI In the News https://github.com/wri/module-wri_in_the_news
 
+GDPR Notice https://github.com/wri/module-gdpr_notice (check implementation guidelines for vendors here: 
+
 
 Drupal 7 Themes
 ===============
