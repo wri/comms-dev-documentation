@@ -14,8 +14,19 @@ Please use the following language: 
 
 "This website uses cookies to provide you with an improved user experience. By continuing to browse this site, you consent to the use of cookies and similar technologies. For further details please visit our privacy policy." 
 
-Please link the privacy policy to a page on the WordPress site and embed this iframe with our latest policy: 
+We see this as a "light lift" needing minimal development time on the front end followed by brief testing.
 
+Privacy Policy
+--------------
+
+Please link the privacy policy to a page on the site. 
+
+For institutional sites: get guidance from your WRI's digital team. We may require you to embed an iframed version, or link directly to the prvacy policy on wri.org.  
+
+iframed version:
 <iframe frameborder="0" height="2800px" scrolling="yes" src="https://www.wri.org/upload/privacy-policy.html" width="100%"></iframe> 
 
-We see this as a "light lift" needing minimal development time on the front end followed by brief testing.
+Link to wri.org:
+https://www.wri.org/about/privacy-policy
+
+
