@@ -21,7 +21,7 @@ Privacy Policy
 
 Please link the privacy policy to a page on the site. 
 
-For institutional sites: get guidance from your WRI's digital team. We may require you to embed an iframed version, or link directly to the prvacy policy on wri.org.  
+For institutional sites: request guidance from WRI's digital team. We may require you to embed an iframed version, or link directly to the privacy policy on wri.org.  
 
 iframed version:
 <iframe frameborder="0" height="2800px" scrolling="yes" src="https://www.wri.org/upload/privacy-policy.html" width="100%"></iframe> 
