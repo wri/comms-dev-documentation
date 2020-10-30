@@ -3,10 +3,6 @@ Technical Requirements for New WRI Web Properties
 
 World Resources Institute Digital Communications Team 
 
-[ add in: retain base content types, gdpr, gtm, guidelines on social sharing modules ] 
-
-[ ensure comments are disabled ]
-
 [ add in testing requirements: PHPUnit, WCAG AA, cross-browser testing, min browser version support, no deprecated code, no php or console errors/warnings ] 
 
 [ add in performance: Google Lighthouse score minimum 90 mobile + desktop, load testing Drupal and WP with BlazeMeter https://pantheon.io/docs/guides/load-testing-with-blazemeter]
@@ -74,23 +70,21 @@ New Drupal Instance
 
     -   Drupal and WordPress sites should be hosted on Pantheon with the WRI account. Other properties and tools should be hosted on AWS with the WRI Comms account.  
 
-        -   If not we will need access to the code repository 
+        -   For exceptions to our prefered hosting solution we will need access to the code repository.
 
-        -   If not: global CDN for caching 
-
-    -   Open source webfonts (i.e. not Typekit): Unless proprietary fonts are required by the brand or existing styleguide, use one source webfonts.
-
-    -   Blog syndication via JSON 
-
+        -   Sites hosted outside of Pantheon may require a global CDN for caching and global performance. 
+        
     -   Drupal theme and site building: 
 
-        -   Mobile First design approach 
+        -   Mobile First design approach: we prefer a 'mobile first' design approach to ensure an effective mobile experience and help inform the tablet and desktop UX.
 
-        -   Atomic design principles 
+        -   Atomic design principles: we prefer atomic design principles for the design elements and styleguide.
+        
+        -   Open source webfonts (i.e. not Typekit): Unless proprietary fonts are required by the brand or existing styleguide, use one source webfonts.
 
-        -   If using a front-end framework: Bootstrap 4 
-
-        -   Drupal Layout Builder 
+        -   Drupal Layout Builder: use Layout Builder for layout and content cusotmization.
+        
+        -   Retain Drupal's base content types: create new content types as needed, but retain the base content types for standardization and future planning.
 
     -   Users and Comments: disable comments across all content types, disable anonymous user account requests
     
@@ -104,7 +98,7 @@ New Drupal Instance
 
             -   Google Tag Manager <https://www.drupal.org/project/google_tag> 
 
-            -   Style Guide [https://www.drupal.org/project/styleguide\
+            -   Unless you are providing your own style guide, include the Style Guide module [https://www.drupal.org/project/styleguide\
     ](https://www.drupal.org/project/styleguide)  
 
         -   Where possible, use existing tools (Views or the Context module) and theme templates before writing custom modules for functionality 
