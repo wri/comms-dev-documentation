@@ -1,32 +1,26 @@
 Technical Requirements for New WRI Web Properties
 =================================================
 
-World Resources Institute Digital Communications Team 
-
-[ add in testing requirements: PHPUnit, WCAG AA, cross-browser testing, min browser version support, no deprecated code, no php or console errors/warnings ] 
-
-[ add in performance: Google Lighthouse score minimum 90 mobile + desktop, load testing Drupal and WP with BlazeMeter https://pantheon.io/docs/guides/load-testing-with-blazemeter]
-
-[ add in security test: SSL Labs https://www.ssllabs.com/index.html min score A ]
+October 2020 World Resources Institute Digital Communications Team
 
 New Drupal Instance
 -------------------
 
 -   New Digital Property Requirements 
 
-    -   Domain name policy 
+    -   Domains: new domains or subdomains are managed by the Digital Team. Domain names should comply with our domain naming guidelines. 
 
-    -   Lifecycle plan 
+    -   Lifecycle plan: new properties should include a strategy for the lifespan and eventual sunset of the site.
 
-    -   Maintenance plan 
+    -   Maintenance plan: new properties need to include a plan for continued maintenance and support after launch.
 
-    -   Designated content manager 
+    -   Designated content manager: new properties need to include a designated content manager within the WRI program or center.
 
-    -   Open source (MIT license) for all custom code, available as public repositories  
+    -   Open source (MIT license) for all custom code. The codebase may be available as public repositories, do not include credentials within the codebase. 
 
 -   Technical Requirements 
 
-    -   Drupal 8, preferably with Drupal front-end 
+    -   Drupal 8/9, preferably with Drupal front-end 
 
     -   All traffic over SSL 
 
@@ -38,7 +32,7 @@ New Drupal Instance
 
     -   GDPR compliance: privacy policy and cookie use notice 
 
-    -   Documentation: 
+    -   Documentation to be provided: 
 
         -   Technical documentation for all custom functionality 
 
@@ -48,7 +42,7 @@ New Drupal Instance
     
     -   Testing
     
-        -   Cross-browser testing to ensure compatibility (tools like BrowserStack).
+        -   Cross-browser testing to ensure compatibility (i.e. BrowserStack).
         
         -   Tests for deprecated code, warnings, and console errors.
         
@@ -68,13 +62,17 @@ New Drupal Instance
     
         - All traffic to the site should be forced over https (port 443) and have a valid SSL certificate. This includes any development environments that are accessible to the public.
     
-        - No Anonymous Access: site accounts can only be created by site admins, and no accounts can be created anonymously (self-creation of new accounts). 
+        - No Anonymous user accounts: site accounts can only be created by site admins, and no accounts can be created anonymously (no self-creation of new accounts). 
         
         - Commenting tools and forums should be disabled.
+        
+        - PHP filter should be disabled.
         
         - Password requirements: strong passwords should be generated for all accounts. 
         
         - Maintenance plans should include routine monthly patches for any available security and maintenance releases.
+        
+        - Open source (MIT license) for all custom code: the codebase may be available as public repositories, do not include credentials within the codebase. 
 
 -   Preferences 
 
