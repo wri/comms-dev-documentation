@@ -50,16 +50,35 @@ New Drupal Instance
 
         -   Site admin documentation for content editors and site managers 
 
+-   Server and Site Security
+
+    -   Server Security
+    
+        - SSH access needs to be key or token based (no passwords)
+        
+        - Maintenance plans should include routine monthly (or automated) security updates for the server OS and packages.
+    
+    -   Site Security
+    
+        - All traffic to the site should be forced over https (port 443) and have a valid SSL certificate. This includes any development environments that are accessible to the public.
+    
+        - No Anonymous Access: site accounts can only be created by site admins, and no accounts can be created anonymously (self-creation of new accounts). 
+        
+        - Commenting tools and forums should be disabled.
+        
+        - Password requirements: strong passwords should be generated for all accounts. 
+        
+        - Maintenance plans should include routine monthly patches for any available security and maintenance releases.
+
 -   Preferences 
 
-    -   Hosted on Pantheon in the WRI account 
+    -   Drupal and WordPress sites should be hosted on Pantheon with the WRI account. Other properties and tools should be hosted on AWS with the WRI Comms account.  
 
         -   If not we will need access to the code repository 
 
         -   If not: global CDN for caching 
 
-    -   Open source webfonts (i.e. not Typekit)
-    Unless proprietary fonts are required by the brand or existing styleguide, use one source webfonts.
+    -   Open source webfonts (i.e. not Typekit): Unless proprietary fonts are required by the brand or existing styleguide, use one source webfonts.
 
     -   Blog syndication via JSON 
 
