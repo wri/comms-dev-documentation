@@ -38,13 +38,23 @@ New Drupal Instance
 
     -   GDPR compliance: privacy policy and cookie use notice 
 
-    -   SASS/SCSS or straight CSS 
-
     -   Documentation: 
 
         -   Technical documentation for all custom functionality 
 
         -   Site admin documentation for content editors and site managers 
+      
+    -   Browser Compatibility: sites should render consistently across modern browsers (Chrome, Firefox, Safari, Edge) in both desktop and mobile versions. We also require support for IE 11. 
+    
+    -   Testing
+    
+        -   Cross-browser testing to ensure compatibility (tools like BrowserStack).
+        
+        -   Tests for deprecated code, warnings, and console errors.
+        
+        -   Performance testing for desktop and mobile: we require a minumum Lighthouse score of 80 in both. We recommend a mobile-first approach during the design and build to ensure the best mobile performance. 
+        
+        -   Accessibility: we require W3C AA compliance.
 
 -   Server and Site Security
 
@@ -103,4 +113,4 @@ New Drupal Instance
 
         -   Where possible, use existing tools (Views or the Context module) and theme templates before writing custom modules for functionality 
 
--   Mobile First approach to design and layout. This helps narrow the focus to the essentials, which aids the overall design even in wider/desktop views
+        -   Mobile First approach to design and layout. This helps narrow the focus to the essentials, which aids the overall design even in wider/desktop views
