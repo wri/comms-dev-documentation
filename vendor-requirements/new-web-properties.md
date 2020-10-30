@@ -58,7 +58,8 @@ New Drupal Instance
 
         -   If not: global CDN for caching 
 
-    -   Open source webfonts (i.e. not Typekit) 
+    -   Open source webfonts (i.e. not Typekit)
+    Unless proprietary fonts are required by the brand or existing styleguide, use one source webfonts.
 
     -   Blog syndication via JSON 
 
