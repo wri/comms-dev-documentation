@@ -3,6 +3,8 @@ Technical Requirements for New WRI Web Properties
 
 October 2020 World Resources Institute Digital Communications Team
 
+WRI Digital Team will provide a QA checklist for the project in addition to these guidelines.
+
 New Drupal Instance
 -------------------
 
