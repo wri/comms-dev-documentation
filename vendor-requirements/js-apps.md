@@ -1,4 +1,4 @@
-# Self Contained JS Apps Hosted on Pantheon but Not Integrated into Drupal
+# Self Contained JS Apps Hosted On Pantheon But Not Integrated Into Drupal
 
 A solution for data visualizations and interactive graphics to be used as free standing apps or embedded content (iframe). The apps are built/compiled as a set of self-contained files running as html/js/css without server requirements or dependencies. 
 
