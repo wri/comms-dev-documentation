@@ -8,7 +8,7 @@ Regardless of how the app is compiled, the production build needs to be a set of
 
 Essentially, the app needs to be flat files that can either run within a directory on the server, or be iframed into content elsewhere, depending on the requirements for the project.
 
-The files are called from the file directory (i.e. wri.org/applications/the/app/directory/index.html)  
+The files are called from the file directory (i.e. wri.org/applications/the/app/directory/index.html) and all assets and resources (js, css, and files) need to pull from within that directory and not the site root.
 
 ## Testing
 
