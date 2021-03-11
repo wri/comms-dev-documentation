@@ -9,4 +9,4 @@ ChinaFAQS https://github.com/wri/wri_chinafaqs.org
 
 DevelopmentAlert https://github.com/wri/wri_developmentalert.org
 
-environmentaldemocracyindex.org (link to repo)
+environmentaldemocracyindex.org (live on AWS EC2 as flattened html https://environmentaldemocracyindex.org/)
