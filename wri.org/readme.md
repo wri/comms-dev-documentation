@@ -6,6 +6,7 @@ Drupal 7, Pantheon. Originally developed by Aten.
 
 Folders by individual developer. These are semi-formal notes on feature work that needs it, or dev work that's on hold or have been shelved.
 
+Styleguide: 
 
 ## Docs for new wri.org (D8, new platform 2021)
 
@@ -24,3 +25,5 @@ Repo with tickets from original development (ThinkShout): https://github.com/wri
 Starter Kit for new institutional sites built using the new platform: https://github.com/wri/wri-starter-kit
 
 Profile for new sites: https://github.com/wri/wri_sites 
+
+Styleguide: TBD but will use Figma
