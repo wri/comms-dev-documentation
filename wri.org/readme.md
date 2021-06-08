@@ -6,7 +6,7 @@ Drupal 7, Pantheon. Originally developed by Aten.
 
 Folders by individual developer. These are semi-formal notes on feature work that needs it, or dev work that's on hold or have been shelved.
 
-Styleguide: 
+Styleguide: https://live-wriorg.pantheonsite.io/admin/appearance/styleguide 
 
 ## Docs for new wri.org (D8, new platform 2021)
 
