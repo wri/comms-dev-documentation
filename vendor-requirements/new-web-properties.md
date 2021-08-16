@@ -10,11 +10,11 @@ New Drupal Instance
 
 -   New Digital Property Requirements 
 
-    -   Domains: new domains or subdomains are managed by the Digital Team. Domain names should comply with our domain naming guidelines. 
+    -   Domains: new domains and subdomains are managed by the Digital Team. Domain names should comply with our domain naming guidelines. 
 
     -   Lifecycle plan: new properties should include a strategy for the lifespan and eventual sunset of the site.
 
-    -   Maintenance plan: new properties need to include a plan for continued maintenance and support after launch.
+    -   Maintenance plan: new properties need to include a plan for continued maintenance and support after launch. This includes planning for major version upgrades of Drupal (i.e. Drupal 9->10)
 
     -   Designated content manager: new properties need to include a designated content manager within the WRI program or center.
 
@@ -78,7 +78,7 @@ New Drupal Instance
 
 -   Preferences 
 
-    -   Drupal and WordPress sites should be hosted on Pantheon with the WRI account. Other properties and tools should be hosted on AWS with the WRI Comms account.  
+    -   Drupal and WordPress sites should be hosted on Pantheon with the WRI account. Other properties and tools should be hosted on AWS with the WRI Comms account. 
 
         -   For exceptions to our prefered hosting solution we will need access to the code repository.
 
