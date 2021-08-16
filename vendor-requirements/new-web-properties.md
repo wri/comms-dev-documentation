@@ -22,7 +22,7 @@ New Drupal Instance
 
 -   Technical Requirements 
 
-    -   Drupal 8/9, preferably with Drupal front-end 
+    -   Drupal 9 with Drupal front-end 
 
     -   All traffic over SSL 
 
