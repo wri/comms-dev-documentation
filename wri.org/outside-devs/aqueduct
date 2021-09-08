@@ -1,6 +1,12 @@
-Vizzuality repos for the 4 Aqueduct apps (https://www.wri.org/aqueduct)
+##Aqueduct Web Apps
 
-They run out of the Applications directory in the D7 site: https://www.wri.org/applications/aqueduct/water-risk-atlas (etc)
+Current vendor: Green River. Originally built by Vizzuality. 
+
+https://www.wri.org/aqueduct
+
+Information pages (landing page, about, etc) are included as content within the CMS. The apps themselves run as static js apps out of the Applications directory in the D8 site: https://www.wri.org/applications/aqueduct/water-risk-atlas (etc)
+
+###Older repos are here:
 
 https://github.com/Vizzuality/aqueduct-countries-ranking
 
