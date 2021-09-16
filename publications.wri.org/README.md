@@ -1,7 +1,7 @@
 # Publications Server ("Reader")
 
 developer: Soapbox
-managed by Design Team
+managed by Design Team, including user docs and publication workflow
 
 hosted on AWS EC2
 
