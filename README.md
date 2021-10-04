@@ -1,7 +1,7 @@
 # comms-dev-documentation
 Documentation and notes for dev projects and dev workflow for the WRI Comms Digital Team.
 
-Our repositories are public when possible.
+Comms team repositories are public when possible.
 
 We use the github team "Comms Webteam" for access.
 
