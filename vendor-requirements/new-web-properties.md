@@ -1,9 +1,11 @@
 Technical Requirements for New WRI Web Properties
 =================================================
 
-August 2021 World Resources Institute Digital Communications Team
+October 2021 World Resources Institute Digital Communications Team
 
 WRI Digital Team will provide a QA checklist for the project in addition to these guidelines. You can preview it here: https://docs.google.com/spreadsheets/d/1tn4Y968z4s7h_fv8A9ydWOup7rsiAPlNABzqlgZZCf8/edit?usp=sharing 
+
+These are the technical requirements and guidelines and don't cover content strategy, branding, or design (beyond a preference for 'mobile first').   
 
 New Drupal Instance
 -------------------
@@ -90,7 +92,7 @@ New Drupal Instance
 
         -   Atomic design principles: we prefer atomic design principles for the design elements and styleguide.
         
-        -   Open source webfonts (i.e. not Typekit): Unless proprietary fonts are required by the brand or existing styleguide, use one source webfonts.
+        -   Open source webfonts (i.e. not Typekit): Unless proprietary fonts are required by the brand or existing styleguide, use open source webfonts.
 
         -   Drupal Layout Builder: use Layout Builder for layout and content cusotmization.
         
