@@ -1,3 +1,11 @@
+Drupal 8
+--------
+
+The recommend module for GDPR compliance is https://www.drupal.org/project/eu_cookie_compliance
+
+Please ensure that tracking is enabled until the user OPTS OUT
+
+
 Drupal 7
 --------
 
