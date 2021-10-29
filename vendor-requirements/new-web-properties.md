@@ -32,7 +32,7 @@ New Drupal Instance
 
     -   W3C AA accessibility 
 
-    -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  
+    -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
 
     -   GDPR: https://github.com/wri/comms-dev-documentation/blob/main/vendor-requirements/gdpr.md
 
