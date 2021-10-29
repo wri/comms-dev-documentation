@@ -34,7 +34,7 @@ New Drupal Instance
 
     -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  
 
-    -   GDPR compliance: privacy policy and cookie use notice 
+    -   GDPR: https://github.com/wri/comms-dev-documentation/blob/main/vendor-requirements/gdpr.md
 
     -   Documentation to be provided: 
 
