@@ -104,7 +104,7 @@ New Drupal Instance
 
         -   Limit community modules to bare minimum. Do include the following: 
 
-            -   Drupal Layout Builder (part of Drupal 8.7 available as of May 2019 <https://www.drupal.org/core/experimental> -- see also <https://dri.es/why-drupal-layout-builder-is-so-unique-and-powerful>) 
+            -   Drupal Layout Builder preferred (<https://dri.es/why-drupal-layout-builder-is-so-unique-and-powerful>) (note that as of Drupal 8.9 Layout Builder is not fully compatible with multilingual support) 
 
             -   Redirect <https://www.drupal.org/project/redirect> 
 
