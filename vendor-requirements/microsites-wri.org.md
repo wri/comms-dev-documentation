@@ -1,7 +1,10 @@
-Guidelines for Microsites on WRI.org
-====================================
+Guidelines for Microsites on WRI.org (D7 site)
+==============================================
 
-(draft July 2020) 
+Note: this doc applies to the older Drupal 7 site, retaining for potential re-puposing for the new platform and wriflagship.
+
+
+(draft July 2020)
 
 [ add in notes on: no sitewide logic in custom modules, and point to main vendor guidelines doc for other aspects, including testing requirements ] 
 
