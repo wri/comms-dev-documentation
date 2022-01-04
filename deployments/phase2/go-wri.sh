@@ -1,0 +1,1 @@
+bash pantheon-deploy.sh -s $1 -t local -d $2 -m develop -f $3
