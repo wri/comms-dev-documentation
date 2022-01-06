@@ -1,4 +1,4 @@
-## Generating and Maintaining SSL Seucirty Certificates
+## Generating and Maintaining SSL Security Certificates
 
 ### Pantheon
 
@@ -6,12 +6,16 @@ Pantheon sites auto-generate certs using Let's Encrypt. No maintenance needed.
 
 ### Wildcard Cert for *.wri.org
 
+We maintain our wildcard cert with DigiCert. 
+  * To generate a new cert run the CSR (certificate signing request) on the 'redirect server'
+  * Log into digicert and renew. Use the key provided by the CSR request. 
+
 Sites using the wildcard:
 
 * It Infrastructure: IMPORTANT! Share all new certs with the IT team. Various tools, network services, and who knows what will break if the cert expires. They will need ample time and advance notice to renew the cert.
 * Redirect Server: a variety of the domains use the 'redirect server' to resolve their .wri.org domain. These are mostly legacy or vanity urls, but they include important domains like 'intranet.wri.org' and 'careers.wri.org'.
   * Certs are saved in /var/www/wri_cert/ and named wri_org.crt AND worldresources.crt [note: this should be changed to a single .crt one day, its only 2 because of uncoordinated work setting up the apache config files]. 
-* ... more
+* ... more [gis sites, datasets, the wireframe vendor sites...  see old docx]
 
 ### Miscellaneous Certs
 
