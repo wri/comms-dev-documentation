@@ -1,5 +1,7 @@
 ## Generating and Maintaining SSL Security Certificates
 
+With a few exceptions Comms only maintains certs for the sites that we manage.
+
 ### Pantheon
 
 Pantheon sites auto-generate certs using Let's Encrypt. No maintenance needed.
@@ -16,6 +18,10 @@ Sites using the wildcard:
 * Redirect Server: a variety of the domains use the 'redirect server' to resolve their .wri.org domain. These are mostly legacy or vanity urls, but they include important domains like 'intranet.wri.org' and 'careers.wri.org'.
   * Certs are saved in /var/www/wri_cert/ and named wri_org.crt AND worldresources.crt [note: this should be changed to a single .crt one day, its only 2 because of uncoordinated work setting up the apache config files]. 
 * ... more [gis sites, datasets, the wireframe vendor sites...  see old docx]
+
+### Cloudfront and ACM
+
+[notes on generating certs for S3 and other cloudfront sites]
 
 ### Miscellaneous Certs
 
