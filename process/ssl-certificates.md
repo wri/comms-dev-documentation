@@ -31,5 +31,8 @@ Sites using the wildcard:
 
 ### Miscellaneous Certs
 
-Where possible, use Let's Encrypt and the certbot tool to generate and auto-renew certs.
+Where possible, use Let's Encrypt and the certbot tool to generate and auto-renew certs
+* Install certbot: https://certbot.eff.org/ 
+* Once certbot has successfully set up the certificate, you can renew with “sudo certbot renew”. Use “sudo certbot renew --dry-run" to check for expiring certs
+* configure certbot to auto renew
 
