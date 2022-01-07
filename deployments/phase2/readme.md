@@ -1,6 +1,8 @@
 ## Archive of Deployment and VRT Scripts from Phase2
 These are the scripts used to deploy to Pantheon and generate VRT using backstop.js
 
+Notes on the WRI China IO instance on AWS EC2: https://github.com/wri/comms-dev-documentation/blob/main/deployments/phase2/WRI-ProjectClose-reposandscripts-070122-1512.pdf 
+
 ## PreReqs:
 * Run through the install process in the `AWS` directory
   * This will be required if we want to send the VRT assets to AWS. This is not required if we want to keep things run on local and don't need to share the reports.
