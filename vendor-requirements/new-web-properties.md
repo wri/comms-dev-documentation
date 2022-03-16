@@ -28,7 +28,7 @@ New Drupal Instance
 
     -   All traffic over SSL 
 
-    -   Analytics/GTM (using WRI Comms' GA account) 
+    -   GTM (using WRI Comms' GA account) 
 
     -   W3C AA accessibility 
 
@@ -117,8 +117,8 @@ New Drupal Instance
             -   Google Tag Manager <https://www.drupal.org/project/google_tag> 
 
             -   Unless you are providing your own style guide, include the Style Guide module [https://www.drupal.org/project/styleguide\
-    ](https://www.drupal.org/project/styleguide)  
-
-        -   Where possible, use existing tools (Views or the Context module) and theme templates before writing custom modules for functionality 
+    ](https://www.drupal.org/project/styleguide)
+    
+        -   Where possible, use existing tools (i.e. Views) and theme templates before writing custom modules for functionality 
 
         -   Mobile First approach to design and layout. This helps narrow the focus to the essentials, which aids the overall design even in wider/desktop views
