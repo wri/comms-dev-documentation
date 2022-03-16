@@ -24,7 +24,7 @@ New Drupal Instance
 
 -   Technical Requirements 
 
-    -   Drupal 9 with Drupal front-end 
+    -   Drupal 9/10 with Drupal front-end 
 
     -   All traffic over SSL 
 
@@ -34,7 +34,7 @@ New Drupal Instance
 
     -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
 
-    -   GDPR: https://github.com/wri/comms-dev-documentation/blob/main/vendor-requirements/gdpr.md
+    -   GDPR notice
 
     -   Documentation to be provided: 
 
@@ -77,6 +77,12 @@ New Drupal Instance
         - Maintenance plans should include routine monthly patches for any available security and maintenance releases.
         
         - Open source (MIT license) for all custom code: the codebase may be available as public repositories, do not include credentials within the codebase. 
+        - 
+    -   Pantheon Hosting
+     
+        - Drupal sites should be hosted in Pantheon under the WRI account.
+         
+        - Pantheon upstream should be used for Drupal Core. 
 
 -   Preferences 
 
