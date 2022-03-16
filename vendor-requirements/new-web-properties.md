@@ -77,7 +77,7 @@ New Drupal Instance
         - Maintenance plans should include routine monthly patches for any available security and maintenance releases.
         
         - Open source (MIT license) for all custom code: the codebase may be available as public repositories, do not include credentials within the codebase. 
-        - 
+        
     -   Pantheon Hosting
      
         - Drupal sites should be hosted in Pantheon under the WRI account.
