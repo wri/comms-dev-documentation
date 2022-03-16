@@ -1,7 +1,7 @@
 Technical Requirements for New WRI Web Properties
 =================================================
 
-October 2021 World Resources Institute Digital Communications Team
+March 2022 World Resources Institute Digital Communications Team
 
 WRI Digital Team will provide a QA checklist for the project in addition to these guidelines. You can preview it here: https://docs.google.com/spreadsheets/d/1tn4Y968z4s7h_fv8A9ydWOup7rsiAPlNABzqlgZZCf8/edit?usp=sharing 
 
