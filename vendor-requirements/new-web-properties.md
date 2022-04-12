@@ -88,9 +88,9 @@ New Drupal Instance
 
     -   Drupal and WordPress sites should be hosted on Pantheon with the WRI account. Other properties and tools should be hosted on AWS with the WRI Comms account. 
 
-        -   For exceptions to our prefered hosting solution we will need access to the code repository.
+        -   For exceptions to our prefered hosting solution (Pantheon) we will need access to the code repository.
 
-        -   Sites hosted outside of Pantheon may require a global CDN for caching and global performance. 
+        -   Sites hosted outside of Pantheon may require a global CDN for performance and global access. 
         
     -   Drupal theme and site building: 
 
