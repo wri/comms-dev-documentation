@@ -5,7 +5,7 @@ March 2022 World Resources Institute Digital Communications Team
 
 WRI Digital Team will provide a QA checklist for the project in addition to these guidelines. You can preview it here: https://docs.google.com/spreadsheets/d/1tn4Y968z4s7h_fv8A9ydWOup7rsiAPlNABzqlgZZCf8/edit?usp=sharing 
 
-These are the technical requirements and guidelines and don't cover content strategy, branding, or design (beyond a preference for 'mobile first').   
+These are the technical requirements and guidelines and don't address content strategy, branding, SEO, or design beyond a preference for a 'mobile first' approach.  
 
 New Drupal Instance
 -------------------
