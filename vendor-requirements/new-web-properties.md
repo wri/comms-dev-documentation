@@ -28,7 +28,7 @@ New Drupal Instance
 
     -   All traffic over SSL 
 
-    -   GTM (using WRI Comms' GA account) 
+    -   GTM and GA 4 (using WRI Comms' GA account) 
 
     -   W3C AA accessibility 
 
