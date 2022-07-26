@@ -2,10 +2,22 @@
 
 Technical documentation for the WRI Platform. 
 
-Dev documentation and main repo is here: https://github.com/wri/wriflagship
+The "WRI Platform" consists of a shared profile used across individual sites: https://github.com/wri/wri_sites
+
+We use CircleCI and Pantheon Build Tools to automate deployments, triggered by merges to the main branch repository of each site. Documentation: https://github.com/wri/wriflagship/wiki 
+
+New sites are generated using the Starter Kit: https://github.com/wri/wri-starter-kit 
+
+### Dev documentation for individual sites on the platform
+
+* wri.org ("flagship") https://github.com/wri/wriflagship
+* wri.org.cn (China IO) https://github.com/wri/wri-china
+* wribrasil.org.br (Brasil IO) https://github.com/wri/wri-brasil
+* wri-indonesia.org (Indonesia IO) https://github.com/wri/wri-indonesia
+* upcoming: Mexico, India, Africa
 
 Dev best practives (from ThinkShout development on the project): https://github.com/wri/wriflagship/wiki/Development-best-practices
 
-Admin user guides for content editors
+### Admin user guides for content editors
 
 * wri.org ("flagship") https://docs.google.com/document/d/1p7tYALKkEFyWgWQ-MRLMKzMPP_Dlf5WV0Fe2eQM2Fqs/edit#heading=h.xke1a91r3e00
