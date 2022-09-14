@@ -24,4 +24,4 @@ Dev best practives (from ThinkShout development on the project): https://github.
 ** (older Google doc version) https://docs.google.com/document/d/1p7tYALKkEFyWgWQ-MRLMKzMPP_Dlf5WV0Fe2eQM2Fqs/edit#heading=h.xke1a91r3e00
 ** (newer imported docx version) https://onewri-my.sharepoint.com/:w:/g/personal/shannon_paton_wri_org/ETOcsnnYZrJNhmXA6JULSx4BS4UENLFJR1RwEIpq2fJPBw?e=pfBlHP 
 
-* wri.org.cn (China I) https://onewri.sharepoint.com/:w:/s/DigitalRefresh/ER-whDeK0hZJs1ntu-qAXpoB341H4SueIfTUsiMXA8ccFw?e=7FXxMa 
+* wri.org.cn (China IO) https://onewri.sharepoint.com/:w:/s/DigitalRefresh/ER-whDeK0hZJs1ntu-qAXpoB341H4SueIfTUsiMXA8ccFw?e=7FXxMa 
