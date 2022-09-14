@@ -1,4 +1,4 @@
-## Docs for new wri.org "wriflagship" (D8, new platform 2021)
+## Docs for new wri.org "wriflagship" (D9, new platform launched 2021)
 
 Admin User Guide: https://docs.google.com/document/d/1p7tYALKkEFyWgWQ-MRLMKzMPP_Dlf5WV0Fe2eQM2Fqs/edit?usp=sharing 
 
