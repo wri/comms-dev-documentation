@@ -34,7 +34,7 @@ New Drupal Instance
 
     -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
 
-    -   GDPR notice
+    -   Privacy Consent (GDPR) compliance: WRI Comms uses Osano to manage consent on WRI websites
 
     -   Documentation to be provided: 
 
