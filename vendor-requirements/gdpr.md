@@ -1,44 +1,14 @@
-Drupal 8
---------
+Privacy Consent (GDPR)
+----------------------
+WRI Comms uses Osano https://www.osano.com/ to manage privacy on our sites. Our team can provide the script to include the consent management tool on the site.
 
-The recommend module for GDPR compliance is https://www.drupal.org/project/eu_cookie_compliance
-
-Please ensure that tracking is enabled until the user OPTS OUT
-
-
-Drupal 7
---------
-
-Custom module for Drupal 7 sites: <https://github.com/wri/module-gdpr_notice> 
-
-Other Sites
--------------------------
-
-The simplest implementation of GDPR that meets our current requirements uses a lightweight js solution: <https://github.com/AOEpeople/cookie-notice> 
-
-Include the cookie.notice.js file in your site files, and add the following snippet into the page template for the <head> section:   
-```
-<script type="text/javscript" src="path/to/the/file/cookie.notice.js"></script>.  
-```
-Please use the following language: 
-
-"This website uses cookies to provide you with an improved user experience. By continuing to browse this site, you consent to the use of cookies and similar technologies. For further details please visit our privacy policy." 
-
-We see this as a "light lift" needing minimal development time on the front end followed by brief testing.
+Links to the Privacy Policy and the Osano Cookie Management drawer need to appear in the footer.  
 
 Privacy Policy
 --------------
 
-Please link the privacy policy to a page on the site. 
+A Privacy Policy is required for all of our sites, linked in the footer.
 
-For institutional sites: request guidance from WRI's digital team. We may require you to embed an iframed version, or link directly to the privacy policy on wri.org.  
+For institutional sites: request guidance from WRI's digital team. 
 
-iframed version:
-```
-<iframe frameborder="0" height="2800px" scrolling="yes" src="https://www.wri.org/upload/privacy-policy.html" width="100%"></iframe> 
-```
-
-Link to wri.org:
-https://www.wri.org/about/privacy-policy
-
-
+wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
