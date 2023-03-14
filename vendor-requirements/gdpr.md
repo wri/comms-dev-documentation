@@ -29,7 +29,7 @@ Use the following script:
   for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', showOsanaDialog, false);
   }  
-<script>
+</script>
 
 
 Then set the link with the 'osano-cookie-preference-link':
