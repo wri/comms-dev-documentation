@@ -2,14 +2,17 @@ Privacy Consent (GDPR)
 ----------------------
 WRI Comms uses Osano https://www.osano.com/ to manage privacy on our sites. Our team can provide the script to include the consent management tool on the site.
 
+The script should load on the page before any scripts for analytics, marketing, or other tracking. It will look like this:
+```
+<script src="https://cmp.osano.com/AzyfddTRtqi1560Dk/xxxxxxxxxxxx/osano.js?variant=five"></script>
+```
+
 Links to the Privacy Policy and the Osano Cookie Management drawer need to appear in the footer.  
 
 Privacy Policy
 --------------
 
-A Privacy Policy is required for all of our sites, linked in the footer.
-
-For institutional sites: request guidance from WRI's digital team. 
+A Privacy Policy is required for all of our sites, linked in the footer. The path should be /privacy-policy or /about/privacy/policy.
 
 wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 
@@ -46,4 +49,3 @@ Hide the "cookie" icon that appears in the bottom right:
 ```
 .osano-cm-widget { display: none; } 
 ```
-.osano-cm-powered-by {display: none;}
