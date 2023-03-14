@@ -61,17 +61,17 @@ Hide the "cookie" icon that appears in the bottom right:
 Google Analytics Consent Mode (optional)
 ----------------------------------------
 
-To use Google Analytcs Consent Mode, load this script at the top of the page (before Analytics or Osano scripts):
+To use Google Analytcs Consent Mode (https://developers.google.com/tag-platform/devguides/privacy#consent_mode_), load this script at the top of the page (before Analytics or Osano scripts). Consent Mode will need to be enabled in Google Analytics and in the Osano dashboard.
 
 ```
-    <script>
-      window.dataLayer = window.dataLayer ||[];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('consent','default',{
-        'ad_storage':'denied',
-        'analytics_storage':'denied',
-        'wait_for_update': 500
-      });
-      gtag("set", "ads_data_redaction", true);
-    </script>
+<script>
+  window.dataLayer = window.dataLayer ||[];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent','default',{
+    'ad_storage':'denied',
+    'analytics_storage':'denied',
+    'wait_for_update': 500
+  });
+  gtag("set", "ads_data_redaction", true);
+</script>
  ```
