@@ -14,13 +14,14 @@ New Drupal Instance
 
     -   Domains: new domains and subdomains are managed by the Digital Team. Domain names should comply with our domain naming guidelines. 
 
-    -   Lifecycle plan: new properties should include a strategy for the lifespan and eventual sunset of the site.
+    -   Lifecycle plan: new properties should include a strategy for the lifespan and eventual sunset of the site and domain.
 
     -   Maintenance plan: new properties need to include a plan for continued maintenance and support after launch. This includes planning for major version upgrades of Drupal (i.e. Drupal 9->10)
 
     -   Designated content manager: new properties need to include a designated content manager within the WRI program or center.
 
     -   Open source (MIT license) for all custom code. The codebase may be available as public repositories, do not include credentials within the codebase. 
+    -   Privacy Policy: sites are required to create and maintain a privacy policy for user. The policy on wri.org can be used for reference: https://www.wri.org/about/privacy-policy
 
 -   Technical Requirements 
 
@@ -34,7 +35,7 @@ New Drupal Instance
 
     -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
 
-    -   Privacy Consent (GDPR) compliance: WRI Comms uses Osano to manage consent on WRI websites
+    -   Privacy Consent Management (GDPR): https://github.com/wri/comms-dev-documentation/blob/main/vendor-requirements/gdpr.md 
 
     -   Documentation to be provided: 
 
@@ -42,7 +43,7 @@ New Drupal Instance
 
         -   Site admin documentation for content editors and site managers 
       
-    -   Browser Compatibility: sites should render consistently across modern browsers (Chrome, Firefox, Safari, Edge) in both desktop and mobile versions. We also require support for IE 11. 
+    -   Browser Compatibility: sites should render consistently across modern browsers (Chrome, Firefox, Safari, Edge) in both desktop and mobile versions.  
     
     -   Testing
     
@@ -60,30 +61,30 @@ New Drupal Instance
     
         - SSH access needs to be key or token based (no passwords)
         
-        - Maintenance plans should include routine monthly (or automated) security updates for the server OS and packages.
+        - Maintenance plans should include routine security updates for the server OS and packages.
     
     -   Site Security
     
         - All traffic to the site should be forced over https (port 443) and have a valid SSL certificate. This includes any development environments that are accessible to the public.
     
-        - No Anonymous user accounts: site accounts can only be created by site admins, and no accounts can be created anonymously (no self-creation of new accounts). 
+        - No Anonymous user accounts: user accounts can only be created by site admins, and no accounts can be created anonymously (no self-creation of new accounts). 
         
         - Commenting tools and forums should be disabled.
         
-        - PHP filter should be disabled.
+        - Drupal PHP filter should be disabled.
         
         - Password requirements: strong passwords should be generated for all accounts. 
         
-        - Maintenance plans should include routine monthly patches for any available security and maintenance releases.
+        - Maintenance plans should include routine patches for any available security and maintenance releases.
         
-        - Open source (MIT license) for all custom code: the codebase may be available as public repositories, do not include credentials within the codebase. 
-        - Webform should be set to not store data. If data is being stored, consult with the project team to see if this impacts the Privacy Policy.
+        - Open source (MIT license) for all custom code: the codebase may be available as public repositories. DO NOT include authentication credentials or API keys within the codebase. 
+        - Drupal Webform should be set to not store data. If data is being stored, consult with the site owners to see if this impacts the Privacy Policy.
         
     -   Pantheon Hosting
      
-        - Drupal sites should be hosted in Pantheon under the WRI account.
+        - Drupal and Wordpress sites should be hosted in Pantheon under the WRI account.
          
-        - Pantheon upstream should be used for Drupal Core. 
+        - Pantheon Upstream should be used for Drupal Core. 
 
 -   Preferences 
 
