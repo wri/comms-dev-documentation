@@ -13,8 +13,8 @@ For institutional sites: request guidance from WRI's digital team.
 
 wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 
-Cookie Management Link
-----------------------
+Cookie Management Drawer Link
+-----------------------------
 
 Use the following script:
 ```
@@ -37,3 +37,13 @@ Then set the link with the 'osano-cookie-preference-link':
  ```
 <a href="" class="osano-cookie-preference-link" title="Manage privacy and cookie preferences">Cookie Preferences</a>
  ```
+
+Remove the "powered by Osano" text at the bottom of the drawer: 
+```
+.osano-cm-powered-by {display: none;}
+```
+Hide the "cookie" icon that appears in the bottom right: 
+```
+.osano-cm-widget { display: none; } 
+```
+.osano-cm-powered-by {display: none;}
