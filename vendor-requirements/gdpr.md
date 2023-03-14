@@ -18,7 +18,6 @@ Cookie Management Link
 
 Use the following script:
 
-'''
 <script>
   var elements = document.getElementsByClassName("osano-cookie-preference-link");
 
@@ -30,11 +29,11 @@ Use the following script:
   for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', showOsanaDialog, false);
   }  
-</script>
-'''  
+<script>
+
 
 Then set the link with the 'osano-cookie-preference-link':
 
-  '''
+ 
 <a href="" class="osano-cookie-preference-link" title="Manage privacy and cookie preferences">Cookie Preferences</a>
-  '''
+ 
