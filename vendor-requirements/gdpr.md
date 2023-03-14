@@ -1,5 +1,5 @@
-Privacy Consent: GDPR Compliance
---------------------------------
+Privacy Consent Management: GDPR Compliance
+-------------------------------------------
 
 WRI web properties need to comply with privacy laws like the EU General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and Brazil's Lei Geral de Proteção de Dados (LGPD).
 
