@@ -12,3 +12,29 @@ A Privacy Policy is required for all of our sites, linked in the footer.
 For institutional sites: request guidance from WRI's digital team. 
 
 wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
+
+Cookie Management Link
+----------------------
+
+Use the following script:
+
+'''
+<script>
+  var elements = document.getElementsByClassName("osano-cookie-preference-link");
+
+  var showOsanaDialog = function(e) {
+    e.preventDefault();
+	  Osano.cm.showDrawer('osano-cm-dom-info-dialog-open');
+  };
+
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].addEventListener('click', showOsanaDialog, false);
+  }  
+</script>
+'''  
+
+Then set the link with the 'osano-cookie-preference-link':
+
+  '''
+<a href="" class="osano-cookie-preference-link" title="Manage privacy and cookie preferences">Cookie Preferences</a>
+  '''
