@@ -23,10 +23,10 @@ A Privacy Policy is required for all of our sites, linked in the footer. The pat
 
 wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 
-Cookie Management Drawer Link
------------------------------
+Cookie Preferences Drawer Link
+------------------------------
 
-A "Cookie Management" link is required for all of our sites, linked in the footer.
+A "Cookie Preferences" link allows the user to open the Osano Cookie Management drawer if they need to check or change their ppreferences. It's required for all of our sites, and should be linked in the footer.
 
 Use the following script:
 ```
