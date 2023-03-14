@@ -1,6 +1,13 @@
-Privacy Consent (GDPR)
-----------------------
-WRI Comms uses Osano https://www.osano.com/ to manage privacy on our sites. Our team can provide the script to include the consent management tool on the site.
+Privacy Consent: GDPR Compliance
+--------------------------------
+
+WRI web properties need to comply with privacy laws like the EU General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and Brazil's Lei Geral de Proteção de Dados (LGPD).
+
+WRI Comms uses Osano's Consent Management tool for this (https://www.osano.com/products/consent-management). 
+
+Osano Script
+------------
+WRI Comms will provide the script to include the consent management tool on the site.
 
 The script should load on the page before any scripts for analytics, marketing, or other tracking. It will look like this:
 ```
@@ -18,6 +25,8 @@ wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 
 Cookie Management Drawer Link
 -----------------------------
+
+A "Cookie Management" link is required for all of our sites, linked in the footer.
 
 Use the following script:
 ```
