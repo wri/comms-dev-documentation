@@ -1,14 +1,16 @@
 Technical Requirements for New WRI Web Properties
 =================================================
 
-March 2022 World Resources Institute Digital Communications Team
+March 2023 World Resources Institute Digital Communications Team
 
 WRI Digital Team will provide a QA checklist for the project in addition to these guidelines. You can preview it here: https://docs.google.com/spreadsheets/d/1tn4Y968z4s7h_fv8A9ydWOup7rsiAPlNABzqlgZZCf8/edit?usp=sharing 
 
-These are the technical requirements and guidelines and don't address content strategy, branding, SEO, or design beyond a preference for a 'mobile first' approach.  
+These are the technical requirements and guidelines and don't address content strategy, branding, SEO, or design beyond a preference for a 'mobile first' approach. 
 
-New Drupal Instance
--------------------
+Drupal is the preferred CMS for all WRI web properties that require a CMS.
+
+Strategy and Guidelines
+-----------------------
 
 -   New Digital Property Requirements 
 
@@ -25,7 +27,7 @@ New Drupal Instance
 
 -   Technical Requirements 
 
-    -   Drupal 9/10 with Drupal front-end 
+    -   (if Drupal) Drupal 9/10 with Drupal front-end 
 
     -   All traffic over SSL 
 
@@ -33,7 +35,7 @@ New Drupal Instance
 
     -   W3C AA accessibility 
 
-    -   Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
+    -   (if Drupal) Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
 
     -   Privacy Consent Management (GDPR): https://github.com/wri/comms-dev-documentation/blob/main/vendor-requirements/gdpr.md 
 
@@ -71,16 +73,16 @@ New Drupal Instance
         
         - Commenting tools and forums should be disabled.
         
-        - Drupal PHP filter should be disabled.
+        - (if Drupal) Drupal PHP filter should be disabled.
         
         - Password requirements: strong passwords should be generated for all accounts. 
         
         - Maintenance plans should include routine patches for any available security and maintenance releases.
         
         - Open source (MIT license) for all custom code: the codebase may be available as public repositories. DO NOT include authentication credentials or API keys within the codebase. 
-        - Drupal Webform should be set to not store data. If data is being stored, consult with the site owners to see if this impacts the Privacy Policy.
+        - (if Drupal) Drupal Webform should be set to not store data. If data is being stored, consult with the site owners to see if this impacts the Privacy Policy.
         
-    -   Pantheon Hosting
+    -   Pantheon Hosting (Drupal and WordPress)
      
         - Drupal and Wordpress sites should be hosted in Pantheon under the WRI account.
          
@@ -102,13 +104,13 @@ New Drupal Instance
         
         -   Open source webfonts (i.e. not Typekit): Unless proprietary fonts are required by the brand or existing styleguide, use open source webfonts.
 
-        -   Drupal Layout Builder: use Layout Builder for layout and content cusotmization.
+        -   (if Drupal) Drupal Layout Builder: use Layout Builder for layout and content cusotmization.
         
-        -   Retain Drupal's base content types: create new content types as needed, but retain the base content types for standardization and future planning.
+        -   (if Drupal) Retain Drupal's base content types: create new content types as needed, but retain the base content types for standardization and future planning.
 
     -   Users and Comments: disable comments across all content types, disable anonymous user account requests
     
-    -   Drupal modules: 
+    -   (if Drupal) Drupal modules: 
 
         -   Limit community modules to bare minimum. Do include the following: 
 
