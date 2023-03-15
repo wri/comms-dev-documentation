@@ -19,7 +19,7 @@ If you're not using GTM, or if your GTM account isn't managed by WRI Comms, you 
 Privacy Policy
 --------------
 
-A Privacy Policy is required for all of our sites, linked in the footer. The path should be /privacy-policy or /about/privacy/policy.
+A Privacy Policy is required for all of our sites, linked in the footer. The path should be /privacy-policy or /about/privacy-policy (and should NOT include 'GDPR' or other terms that are specific to certain laws).
 
 wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 
