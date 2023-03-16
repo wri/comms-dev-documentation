@@ -26,7 +26,7 @@ wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 Cookie Preferences Drawer Link
 ------------------------------
 
-A "Cookie Preferences" link allows the user to open the Osano Cookie Management drawer if they need to check or change their ppreferences. It's required for all of our sites, and should be linked in the footer.
+A "Cookie Preferences" link allows the user to open the Osano Cookie Management drawer if they need to check or change their preferences. It's required for all of our sites, and should be linked in the footer.
 
 Use the following script:
 ```
