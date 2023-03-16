@@ -13,7 +13,7 @@ WRI Comms will add the Osano script to the site using Google Tag Manager (GTM).
 
 If you're not using GTM, or if your GTM account isn't managed by WRI Comms, you can add the script manually. The script should load on the page before any scripts for analytics, marketing, or other tracking. It will look like this:
 ```
-<script src="https://cmp.osano.com/AzyfddTRtqi1560Dk/xxxxxxxxxxxx/osano.js?variant=five"></script>
+<script src="https://cmp.osano.com/xxxxxxxxxxxx/osano.js?variant=five"></script>
 ``` 
 
 Privacy Policy
