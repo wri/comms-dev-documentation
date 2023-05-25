@@ -33,6 +33,6 @@ Sites using the wildcard:
 
 Where possible, use Let's Encrypt and the certbot tool to generate and auto-renew certs
 * Install certbot: https://certbot.eff.org/ 
-* Once certbot has successfully set up the certificate, you can renew with “sudo certbot renew”. Use “sudo certbot renew --dry-run" to check for expiring certs, and "certbot certonly --force-renew -d example.com" to renew a specific cert
+* Once certbot has successfully set up the certificate (running sudo certbot certonly --apache), you can renew with “sudo certbot renew”. Use “sudo certbot renew --dry-run" to check for expiring certs, and "certbot certonly --force-renew -d example.com" to renew a specific cert
 * configure certbot to auto renew
 
