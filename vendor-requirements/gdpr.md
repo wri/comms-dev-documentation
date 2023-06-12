@@ -60,7 +60,7 @@ Hide the "cookie" icon that appears in the bottom right:
 ```
 Hide the "Do Not Sell" option in the drawer:
 ```
-li.osano-cm-drawer-item:nth-child(5)
+li.osano-cm-drawer-item:nth-child(5) { display: none; }
 ```
 
 Google Analytics Consent Mode
