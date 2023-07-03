@@ -23,6 +23,8 @@ A Privacy Policy is required for all of our sites, linked in the footer. The pat
 
 wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 
+For sites that comply with the WRI privacy policy on wri.org, we're developing an option to direct traffic to wri.org and pass variables to identify your site and cookie list from Osano: https://www.wri.org/about/privacy-policy?sitename=[the site name]&osanoid=[xxxxxxxxxxxx]
+
 Cookie Preferences Drawer Link
 ------------------------------
 
