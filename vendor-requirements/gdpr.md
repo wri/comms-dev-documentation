@@ -52,11 +52,14 @@ Then set the link with the 'osano-cookie-preference-link':
 <a href="" class="osano-cookie-preference-link" title="Manage privacy and cookie preferences">Cookie Preferences</a>
  ```
 
+Hide Unused Elements
+--------------------
+
 Remove the "powered by Osano" text at the bottom of the drawer: 
 ```
 .osano-cm-powered-by {display: none;}
 ```
-Hide the "cookie" icon that appears in the bottom right: 
+Hide the "cookie" icon that appears in the bottom right (this assumes you've enabled the Cookie Preference Drawer link): 
 ```
 .osano-cm-widget { display: none; } 
 ```
