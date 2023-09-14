@@ -71,7 +71,8 @@ li.osano-cm-drawer-item:nth-child(5) { display: none; }
 Google Analytics Consent Mode
 -----------------------------
 
-To use Google Analytcs Consent Mode (https://developers.google.com/tag-platform/devguides/privacy#consent_mode), load this script at the top of the page (before Analytics or Osano scripts). Consent Mode will need to be enabled in Google Analytics and in the Osano dashboard.
+To use Google Analytcs Consent Mode (https://developers.google.com/tag-platform/devguides/privacy#consent_mode), load this script at the top of the page (before Analytics or Osano scripts). 
+IMPORTANT: Consent Mode will need to be enabled in Google Analytics and in the Osano dashboard. By itself it will block Analytics from tracking effectively.
 
 ```
 <script>
