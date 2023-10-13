@@ -114,7 +114,7 @@ Strategy and Guidelines
 
         -   Limit community modules to bare minimum. Do include the following: 
 
-            -   Drupal Layout Builder preferred (<https://dri.es/why-drupal-layout-builder-is-so-unique-and-powerful>) (note that as of Drupal 8.9 Layout Builder is not fully compatible with multilingual support) 
+            -   Drupal Layout Builder preferred (<https://dri.es/why-drupal-layout-builder-is-so-unique-and-powerful>)
 
             -   Redirect <https://www.drupal.org/project/redirect> 
 
@@ -122,6 +122,7 @@ Strategy and Guidelines
 
             -   Unless you are providing your own style guide, include the Style Guide module [https://www.drupal.org/project/styleguide\
     ](https://www.drupal.org/project/styleguide)
+            -   Form spam prevention: we recommend using Simple Google ReCaptha v3 [https://www.drupal.org/project/simple_recaptcha] 
     
         -   Where possible, use existing tools (i.e. Views) and theme templates before writing custom modules for functionality 
 
