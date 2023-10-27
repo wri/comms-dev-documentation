@@ -72,7 +72,7 @@ Google Analytics Consent Mode
 -----------------------------
 
 To use Google Analytcs Consent Mode (https://developers.google.com/tag-platform/devguides/privacy#consent_mode), load this script at the top of the page (before Analytics or Osano scripts). 
-IMPORTANT: Consent Mode will need to be enabled in Google Analytics and in the Osano dashboard. By itself it will block Analytics from tracking effectively. In addition the following scripts from Google need to be set as "essential" in the Osano script manager when using Consent Mode: "google-analytics\.com" and "googletagmanager\.com".
+IMPORTANT: Consent Mode will need to be enabled in Google Analytics and in the Osano dashboard. By itself it will block Analytics from tracking effectively. In addition these 4 scripts from Google need to be categorized as "essential" in the Osano script manager when using Consent Mode: "google-analytics\.com". "googletagmanager\.com", "google\.com", and "googleapis\.com".
 
 ```
 <script>
