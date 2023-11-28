@@ -86,7 +86,9 @@ Strategy and Guidelines
      
         - Drupal and Wordpress sites should be hosted in Pantheon under the WRI account.
          
-        - Pantheon Upstream should be used for Drupal Core. 
+        - Pantheon Upstream should be used for Drupal Core and WordPress.
+     
+        - No custom Upstreams on Pantheon, or custom distributions
 
 -   Preferences 
 
