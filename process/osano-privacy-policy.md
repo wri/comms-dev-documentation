@@ -74,7 +74,7 @@ function buildTable(data){
 }
 
 
-##CSS
+## CSS
 
 /* Hide Block List */
 
@@ -108,7 +108,7 @@ td:nth-of-type(4):before { content: "Purpose:"; font-weight: bold; margin-right:
 }
 
 
-##HTML
+## HTML
 
 
 <h4>Site Name: (<span  id="website-name"></span>)</h4>
