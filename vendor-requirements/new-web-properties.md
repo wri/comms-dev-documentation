@@ -23,11 +23,11 @@ Strategy and Guidelines
     -   Designated content manager: new properties need to include a designated content manager within the WRI program or center.
 
     -   Open source (MIT license) for all custom code. The codebase may be available as public repositories, do not include credentials within the codebase. 
-    -   Privacy Policy: sites are required to create and maintain a privacy policy for user. The policy on wri.org can be used for reference: https://www.wri.org/about/privacy-policy
+    -   Privacy Policy: sites are required to create and maintain a privacy policy for user. The policy on wri.org can be used for reference: https://www.wri.org/about/privacy-policy and Institutional sites can direct to that page when applicable.
 
 -   Technical Requirements 
 
-    -   (if Drupal) Drupal 9/10 with Drupal front-end 
+    -   Latest version of the CMS (Drupal or WordPress). At launch core and modules/plugins should be up-to-date. 
 
     -   All traffic over SSL 
 
