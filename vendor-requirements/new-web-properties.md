@@ -37,7 +37,9 @@ Strategy and Guidelines
 
     -   (if Drupal) Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
 
-    -   Privacy Consent Management (GDPR): https://github.com/wri/comms-dev-documentation/blob/main/vendor-requirements/gdpr.md 
+    -   (if WordPress) WordPress best practices (code standards): https://developer.wordpress.org/ 
+
+    -   Privacy Consent Management (GDPR compliance and other applicable laws): https://github.com/wri/comms-dev-documentation/blob/main/vendor-requirements/gdpr.md  
 
     -   Documentation to be provided: 
 
@@ -90,6 +92,13 @@ Strategy and Guidelines
      
         - No custom Upstreams on Pantheon, or custom distributions
 
+        - Pantheon limits Write Access on their production environments for security (best practice):
+
+          - Write Access on Environments https://docs.pantheon.io/guides/filesystem/files-directories#write-access-on-environments
+
+          - Symlinks and Assumed Write Access https://docs.pantheon.io/symlinks-assumed-write-access 
+
+
 -   Preferences 
 
     -   Drupal and WordPress sites should be hosted on Pantheon with the WRI account. Other properties and tools should be hosted on AWS with the WRI Comms account. 
@@ -124,8 +133,24 @@ Strategy and Guidelines
 
             -   Unless you are providing your own style guide, include the Style Guide module [https://www.drupal.org/project/styleguide\
     ](https://www.drupal.org/project/styleguide)
-            -   Form spam prevention: we recommend using Simple Google ReCaptha v3 [https://www.drupal.org/project/simple_recaptcha] 
+            -   Form spam prevention: we recommend using Simple Google ReCaptha v3 [https://www.drupal.org/project/simple_recaptcha]
     
-        -   Where possible, use existing tools (i.e. Views) and theme templates before writing custom modules for functionality 
+        -   Where possible, use existing tools in core (i.e. Views, Layout Builder)
 
-        -   Mobile First approach to design and layout. This helps narrow the focus to the essentials, which aids the overall design even in wider/desktop views
+    -   (if WordPress) WordPress Theming:
+
+        -   Lightweight custom theme using best practices using Block Editor and ACF Blocks
+            -   https://developer.wordpress.org/block-editor/
+            -   https://www.advancedcustomfields.com/resources/blocks/
+
+        -   Global settings and scripts should be editable theme-wide through WordPress
+
+        -   Use WordPress’ base content types and blocks where possible, creating new content types and blocks as needed
+
+        -   Avoid pre-made themes (eg. the types of things you find on https://themeforest.net/) as they come bundled and bloated with extra software that most sites will never use
+
+        -   Limit Plugins to a bare minimum, creating functionality within functions.php where possible
+
+        -   Plugin Recommendations for consistency across WRI sites: Yoast SEO, Gravity Forms (and Gravity Forms reCAPTCHA Add-On), Redirection, ReCaptcha Pro by BestWebSoft
+
+    -   Theming and UX: Mobile First approach to design and layout. This helps narrow the focus to the essentials, which aids the overall design even in wider/desktop views
