@@ -7,7 +7,7 @@ WRI Digital Team will provide a QA checklist for the project in addition to thes
 
 These are the technical requirements and guidelines and don't address content strategy, branding, SEO, or design beyond a preference for a 'mobile first' approach. 
 
-Drupal is the preferred CMS for all WRI web properties that require a CMS.
+Drupal is the preferred CMS for all WRI web properties that require a CMS, but we include guidelines for WordPress.
 
 Strategy and Guidelines
 -----------------------
