@@ -26,7 +26,7 @@ WRI Comms is configuring Osano with Google Analytcs Consent Mode enabled (https:
 
 Load this script at the top of the page (before Analytics or Osano scripts). 
 
-NOTE: WRI Comms will needs to enable Consent Mode in Google Analytics and in the Osano dashboard. By itself this script will block Analytics from tracking effectively. In addition these 4 scripts from Google need to be categorized as "essential" in the Osano script manager when using Consent Mode: "google-analytics\.com", "googletagmanager\.com", "google\.com", and "googleapis\.com".
+NOTE: WRI Comms will needs to enable Consent Mode in Google Analytics and in the Osano dashboard. By itself this script will prevent Analytics from tracking effectively. In addition these 4 scripts from Google need to be categorized as "essential" in the Osano script manager when using Consent Mode: "google-analytics\.com", "googletagmanager\.com", "google\.com", and "googleapis\.com".
 
 ```
 <script>
