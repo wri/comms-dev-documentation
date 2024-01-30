@@ -7,14 +7,39 @@ WRI Comms uses Osano's Consent Management tool for this (https://www.osano.com/p
 
 Links to the Privacy Policy and the Osano Cookie Management drawer need to appear in the footer. 
 
+
 Osano Script
 ------------
-WRI Comms will add the Osano script to the site using Google Tag Manager (GTM).
+The script should load on the page before any scripts for analytics, marketing, or other tracking. 
 
-If you're not using GTM, or if your GTM account isn't managed by WRI Comms, you can add the script manually. The script should load on the page before any scripts for analytics, marketing, or other tracking. It will look like this:
+WRI Comms will provide the script. It will look like this (and will sometimes include parameters):
 ```
-<script src="https://cmp.osano.com/xxxxxxxxxxxx/osano.js?variant=five"></script>
+<script src="https://cmp.osano.com/xxxxxxxxxxxx/osano.js"></script>
 ``` 
+Note that in some cases WRI Comms will prefer to add the Osano script to the site using Google Tag Manager (GTM).
+
+
+Google Analytics Consent Mode
+-----------------------------
+
+WRI Comms is configuring Osano with Google Analytcs Consent Mode enabled (https://developers.google.com/tag-platform/devguides/privacy#consent_mode).
+
+Load this script at the top of the page (before Analytics or Osano scripts). 
+
+NOTE: WRI Comms will needs to enable Consent Mode in Google Analytics and in the Osano dashboard. By itself this script will block Analytics from tracking effectively. In addition these 4 scripts from Google need to be categorized as "essential" in the Osano script manager when using Consent Mode: "google-analytics\.com", "googletagmanager\.com", "google\.com", and "googleapis\.com".
+
+```
+<script>
+  window.dataLayer = window.dataLayer ||[];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent','default',{
+    'ad_storage':'denied',
+    'analytics_storage':'denied',
+    'wait_for_update': 500
+  });
+  gtag("set", "ads_data_redaction", true);
+</script>
+ ```
 
 Privacy Policy
 --------------
@@ -24,6 +49,7 @@ A Privacy Policy is required for all of our sites, linked in the footer. The pat
 wri.org Privacy Policy: https://www.wri.org/about/privacy-policy for reference
 
 For sites that comply with the WRI privacy policy on wri.org: you can link to wri.org and pass parameters to identify your site, and pull the relevant cookie list. WRI Comms can configure this within Osano, and provide the url for any footer/utility links on the site that need it. The url follows this pattern: https://www.wri.org/about/privacy-policy?sitename=[the-site-name]&osanoid=[xxxxxxxxxxxx]
+
 
 Cookie Preferences Drawer Link
 ------------------------------
@@ -68,21 +94,4 @@ Hide the "Do Not Sell" option in the drawer:
 li.osano-cm-drawer-item:nth-child(5) { display: none; }
 ```
 
-Google Analytics Consent Mode
------------------------------
 
-To use Google Analytcs Consent Mode (https://developers.google.com/tag-platform/devguides/privacy#consent_mode), load this script at the top of the page (before Analytics or Osano scripts). 
-IMPORTANT: Consent Mode will need to be enabled in Google Analytics and in the Osano dashboard. By itself it will block Analytics from tracking effectively. In addition these 4 scripts from Google need to be categorized as "essential" in the Osano script manager when using Consent Mode: "google-analytics\.com". "googletagmanager\.com", "google\.com", and "googleapis\.com".
-
-```
-<script>
-  window.dataLayer = window.dataLayer ||[];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('consent','default',{
-    'ad_storage':'denied',
-    'analytics_storage':'denied',
-    'wait_for_update': 500
-  });
-  gtag("set", "ads_data_redaction", true);
-</script>
- ```
