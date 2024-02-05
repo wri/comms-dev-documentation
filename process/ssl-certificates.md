@@ -9,8 +9,11 @@ Pantheon sites auto-generate certs using Let's Encrypt. No maintenance needed.
 ### Wildcard Cert for *.wri.org
 
 We maintain our wildcard cert with DigiCert. 
-  * To generate a new cert run the CSR (certificate signing request) on the AWS EC@ 'redirect server' using openssl: ( ```$ openssl req -new -newkey rsa:2048 -nodes -keyout wri_cert.key -out wri_cert.csr``` ) 
-  * Log into digicert and renew. Use the key provided by the CSR request. 
+  * To generate a new cert run the CSR (certificate signing request) on the AWS EC@ 'redirect server' using openssl:
+    ** ```$ openssl req -new -newkey rsa:2048 -nodes -keyout wri_cert.key -out wri_cert.csr``` 
+    ** Common Name (CN) is the "fully qualified domain name (FQDN)", set this as "*.wri.org" (no quotes) 
+  * Log into digicert and renew. Use the key provided by the CSR request.
+  * Certs are stored on OneDrive: Digital Team Web Development -> certs -> wri.org
 
 Sites using the wildcard:
 
