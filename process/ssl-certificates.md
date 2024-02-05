@@ -10,6 +10,7 @@ Pantheon sites auto-generate certs using Let's Encrypt. No maintenance needed.
 
 We maintain our wildcard cert with DigiCert. 
   * To generate a new cert run the CSR (certificate signing request) on the 'redirect server'
+```$ openssl req -new -newkey rsa:2048 -nodes -keyout wildcard-wri.key -out wildcard-wri.csr``` 
   * Log into digicert and renew. Use the key provided by the CSR request. 
 
 Sites using the wildcard:
