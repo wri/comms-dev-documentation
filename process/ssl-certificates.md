@@ -14,12 +14,11 @@ We maintain our wildcard cert with DigiCert.
 
 Sites using the wildcard:
 
-* It Infrastructure: IMPORTANT! Share all new certs with the IT team. Various tools, network services, and who knows what will break if the cert expires. They will need ample time and advance notice to renew the cert.
+* It Infrastructure: IMPORTANT! Share all new certs with the IT team. Various tools, network services, and who-knows-what might break if the cert expires. They will need ample time and advance notice to renew the cert.
 * Redirect Server: a variety of the domains use the 'redirect server' to resolve their .wri.org domain. These are mostly legacy or vanity urls, but they include important domains like 'intranet.wri.org' and 'careers.wri.org'.
   * Certs are saved in /var/www/wri_cert/ and named wri_org.crt AND worldresources.crt [note: this should be changed to a single .crt one day, its only 2 because of uncoordinated work setting up the apache config files]. 
 * datasets.wri.org
 * gis.wri.org including the other subdomains gis-stage.wri.org, gis-gfw.wri.org, gfw-staging.wri.org
-* cait.wri.org (on Azure) -- this site is legacy and slated to be sunset
 * EV Simulator -- managed by WiredCraft, includes
   * ev-simulator.wri.org  
   * staging-ev-simulator.wri.org 
