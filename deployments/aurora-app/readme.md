@@ -1,6 +1,8 @@
-# Aurora App
+# Aurora App: auroramonitoring.org 
 
-The Aurora app is hosted on AWS S3 with Cloudfront. 
+Forests/Restoration team. Link to site/app notes in the Digital team Website Portfolio: https://app.asana.com/0/1204518168455047/1204542271751215  
+
+The Aurora app is hosted on AWS S3 ("aurora-wri") with Cloudfront. 
 
 The app itself is developed by external devs. They push new builds to the repo at https://github.com/vielca/auroramonitoring_builds 
 
