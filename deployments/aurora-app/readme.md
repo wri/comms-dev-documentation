@@ -4,7 +4,7 @@ Forests/Restoration team. Link to site/app notes in the Digital team Website Por
 
 The Aurora app is hosted on AWS S3 ("aurora-wri") with Cloudfront. 
 
-The app itself is developed by external devs. They push new builds to the repo at https://github.com/vielca/auroramonitoring_builds 
+The app itself is developed by external devs (Vielca). They push new builds to the repo at https://github.com/vielca/auroramonitoring_builds. That's a private repo, you may need to request access.
 
 ## Deployment
 
