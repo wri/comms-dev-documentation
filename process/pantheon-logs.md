@@ -1,7 +1,12 @@
 Parsing Pantheon Logs
 =====================
 
-Run 'bash collect-logs-rsync.sh' to download logs. 
+Run 'collect-logs-rsync.sh' file to download logs.
+The file is included here for convenience but for latest version and documentation: https://docs.pantheon.io/guides/logs-pantheon/automate-log-downloads
+
+```
+bash collect-logs-rsync.sh
+```
 
 The site ID and Pantheon ENV can be changed in the vars at the top of the file. 
 
