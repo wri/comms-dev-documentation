@@ -1,3 +1,5 @@
+#this is included here for convenience, see the pantheon-logs.md file for how to configure and use this to parse Pantheon logs
+
 #!/bin/bash
 # Site UUID is REQUIRED: Site UUID from Dashboard URL, e.g. 12345678-1234-1234-abcd-0123456789ab
 SITE_UUID=[this is the ID for wriflagship]29dfa634-88ba-4ba3-a88c-377f3b9656d2
