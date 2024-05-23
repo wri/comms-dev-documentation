@@ -24,9 +24,9 @@ Google Analytics Consent Mode
 
 WRI Comms is configuring Osano with Google Analytcs Consent Mode enabled (https://developers.google.com/tag-platform/devguides/privacy#consent_mode).
 
-Load this script at the top of the page (before Analytics or Osano scripts). 
-
 NOTE: WRI Comms will needs to enable Consent Mode in Google Analytics and in the Osano dashboard. By itself this script will prevent Analytics from tracking effectively. In addition these 4 scripts from Google need to be categorized as "essential" in the Osano script manager when using Consent Mode: "google-analytics\.com", "googletagmanager\.com", "google\.com", and "googleapis\.com".
+
+Load this script at the top of the page (before Analytics or Osano scripts). Check https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced to ensure this is the latest script from Google.
 
 ```
 <script>
@@ -35,7 +35,12 @@ NOTE: WRI Comms will needs to enable Consent Mode in Google Analytics and in the
   gtag('consent','default',{
     'ad_storage':'denied',
     'analytics_storage':'denied',
-    'wait_for_update': 10000
+    'ad_user_data':'denied',
+    'ad_personalization':'denied',
+    'personalization_storage':'denied',
+    'functionality_storage':'granted',
+    'security_storage':'granted',
+    'wait_for_update': 500
   });
   gtag("set", "ads_data_redaction", true);
 </script>
