@@ -2,6 +2,8 @@
 
 [WRI Platform: add this via JS Asset Injector]
 
+```
+
 // this script is maintained at https://github.com/wri/comms-dev-documentation/edit/main/process/osano-styling.md
 
 var elements = document.getElementsByClassName("osano-cookie-preference-link");
@@ -15,3 +17,5 @@ var styles = ".osano-cm-widget { display: none; } .osano-cm-powered-by {display:
 var styleSheet = document.createElement("style"); 
 styleSheet.innerText = styles; 
 document.head.appendChild(styleSheet);
+
+```
