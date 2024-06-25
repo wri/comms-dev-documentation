@@ -9,4 +9,6 @@ There is a Google Doc for content editors
 
 ### Misc
 
+Parsing Pantheon logs: pantheon-logs.md
+
 SSL Security Certificates: see the file this folder (/process)
