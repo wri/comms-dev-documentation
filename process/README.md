@@ -11,4 +11,10 @@ There is a Google Doc for content editors
 
 Parsing Pantheon logs: pantheon-logs.md
 
-SSL Security Certificates: see the file this folder (/process)
+Osano adjustments for platform sites: osano-styling.md
+
+Osano script to customize wri.org privacy policy with vars: osano-privacy-policy.md
+
+SSL Security Certificates: ssl-certificates.md 
+
+some basic terminal commands: terminal-cheat-sheet.md
