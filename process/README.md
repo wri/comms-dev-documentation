@@ -18,3 +18,9 @@ Osano script to customize wri.org privacy policy with vars: osano-privacy-policy
 SSL Security Certificates: ssl-certificates.md 
 
 some basic terminal commands: terminal-cheat-sheet.md
+
+### IDE steps for local or remote dev (Integrated Development Environment)
+
+Gitpod (remote IDE): IDE-spinup-gitpod.md
+
+DDEV (local IDE) [in progress]
