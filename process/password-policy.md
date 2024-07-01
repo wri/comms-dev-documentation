@@ -10,7 +10,7 @@ Best Practice for Strong Passwords:
 WRI Institutional sites built in Drupal will:
 
 1. Assess your password strength whenever you create a new password for your user account. 
-2. Won't accept anything other than a strong password. The password tool checks prospective passwords against brute-force attacks, sequential or repeated characters, dates, and English-language dictionaries.
+2. Won't accept anything other than a strong password. The password tool checks prospective passwords against sequential or repeated characters, dates, and English-language dictionaries.
 
 Password Managers
 
