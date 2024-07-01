@@ -4,14 +4,13 @@ Password Policy for Drupal/WordPress User Accounts
 Best Practice for Strong Passwords:
 
 1. Mix uppercase, lowercase, numbers, and special characters
-2. Our guideline is 20 character minimum
+2. 12 character minimum, but we recommend 20
 3. Don't reuse passwords between accounts
 
 WRI Institutional sites built in Drupal will:
 
-1. Assess your password strength whenever you create a new password for your user account
-2. Suggest an optional strong password for you to use
-3. Won't accept anything other than a strong password
+1. Assess your password strength whenever you create a new password for your user account. 
+2. Won't accept anything other than a strong password. The password tool checks prospective passwords against brute-force attacks, sequential or repeated characters, dates, and English-language dictionaries.
 
 Password Managers
 
