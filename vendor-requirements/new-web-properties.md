@@ -1,7 +1,7 @@
 Technical Requirements for New WRI Web Properties
 =================================================
 
-March 2023 World Resources Institute Digital Communications Team
+March 2024 World Resources Institute Digital Communications Team
 
 WRI Digital Team will provide a QA checklist for the project in addition to these guidelines. You can preview it here: https://docs.google.com/spreadsheets/d/1tn4Y968z4s7h_fv8A9ydWOup7rsiAPlNABzqlgZZCf8/edit?usp=sharing 
 
@@ -35,7 +35,7 @@ Strategy and Guidelines
 
     -   W3C AA accessibility 
 
-    -   (if Drupal) Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer
+    -   (if Drupal) Drupal best practices (code standards): <https://www.drupal.org/docs/develop/>  | Installing Code-Sniffer: https://www.drupal.org/docs/contributed-modules/code-review-module/installing-coder-sniffer. Drupal should be Composer managed.
 
     -   (if WordPress) WordPress best practices (code standards): https://developer.wordpress.org/ 
 
@@ -107,7 +107,7 @@ Strategy and Guidelines
 
         -   Sites hosted outside of Pantheon may require a global CDN for performance and global access. 
         
-    -   Drupal theme and site building: 
+    -   (if Drupal) theme and site building: 
 
         -   Mobile First design approach: we prefer a 'mobile first' design approach to ensure an effective mobile experience and help inform the tablet and desktop UX.
 
