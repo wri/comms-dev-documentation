@@ -4,10 +4,13 @@
 
 Our prefered solution is to create a Drupal Module (example code below) to generate blocks within the CMS that can then be added to page content.
 
-[react notes here]
+### React Notes
 
-[module notes here]
+[notes here]
 
+### Drupal Module Notes
+
+Examples are below. The Drupal module creates a block along with the necessary js and css.
 
 ## Self Contained JS Apps Hosted On Pantheon But Not Integrated Into Drupal
 
@@ -25,7 +28,7 @@ The files are called from the file directory (i.e. wri.org/applications/the/app/
 
 Multiplatform testing using Browserstack or similar tools. Final code test should be on the Pantheon "multidev" instance to ensure full compatibility with our production environment. WRI will merge to the Pantheon environment for testing, and manage deployments.
 
-## Drupal Wrepper Code
+## Drupal Wrapper Code
 
 Module naming: "wri_viz_[project name]"
 
@@ -103,5 +106,4 @@ class COFI extends BlockBase {
   }
 
 }
-
 ```
