@@ -27,4 +27,81 @@ Multiplatform testing using Browserstack or similar tools. Final code test shoul
 
 ## Drupal Wrepper Code
 
-``` [example module code here] ```
+Module naming: "wri_viz_[project name]"
+
+wri_viz_[project name].info.yaml
+``` 
+name: [name of the project data visualization]
+type: module
+description: Custom functionality, display, and data handling for [project name]
+core_version_requirement: '>=9.5'
+package: WRI Data Viz
+```
+
+example block (from "cofi" project)
+```
+<?php
+
+namespace Drupal\wri_viz_cofi\Plugin\Block;
+
+use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Cache\Cache;
+
+/**
+ * Provides a 'China Overseas Finance Inventory Data Viz' Block.
+ *
+ * @Block(
+ *   id = "wri_viz_cofi",
+ *   admin_label = @Translation("China Overseas Finance Inventory Data Viz"),
+ *   category = @Translation("WRI Data Viz"),
+ * )
+ */
+class COFI extends BlockBase {
+
+  /**
+   * {@inheritdoc}
+   */
+  public function build() {
+    return [
+      '#markup' => '<wri-viz-cofi></wri-viz-cofi>',
+      '#allowed_tags' => ['wri-viz-cofi'],
+      '#attached' => ['library' => ['wri_viz_cofi/cofi']],
+    ];
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getCacheTags() {
+    // Rebuild block when node changes.
+    if ($node = \Drupal::routeMatch()->getParameter('node')) {
+      // If node, add its cachetag.
+      return Cache::mergeTags(
+            parent::getCacheTags(), [
+              'node:' . $node->id(),
+            ]
+        );
+    }
+    else {
+      // Return default tags instead.
+      return parent::getCacheTags();
+    }
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function getCacheContexts() {
+    // If you depend on \Drupal::routeMatch()
+    // you must set context of this block with 'route' context tag.
+    // Every new route this block will rebuild.
+    return Cache::mergeContexts(
+          parent::getCacheContexts(), [
+            'route',
+          ]
+      );
+  }
+
+}
+
+```
