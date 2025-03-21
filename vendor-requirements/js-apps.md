@@ -6,11 +6,11 @@ Our prefered solution is to create a Drupal Module (example code below) to gener
 
 ### React Notes
 
-[notes here]
+The Drupal module provides a target element where the React app will initialize. 
 
 ### Drupal Module Notes
 
-Examples are below. The Drupal module creates a block along with the necessary js and css.
+Examples are below, including a step-by-step tutorial. The Drupal module creates a unique block type that can be placed into any Drupal node in whatever manner you place blocks (Block Layout, Layout Builder, etc.) 
 
 ## Self Contained JS Apps Hosted On Pantheon But Not Integrated Into Drupal
 
@@ -108,7 +108,7 @@ class COFI extends BlockBase {
 }
 ```
 ## Drupal Module Step-by-Step
-This uses chart.js for a simple example.
+This uses chart.js for a simple example. The actual module name would be wri_viz_[projectname] and not 'my_chart_block'.
 
 1. Module Setup:
 
