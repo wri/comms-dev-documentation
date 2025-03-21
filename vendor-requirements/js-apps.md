@@ -108,6 +108,7 @@ class COFI extends BlockBase {
 }
 ```
 ## Drupal Module Step-by-Step
+This uses chart.js for a simple example.
 
 1. Module Setup:
 
