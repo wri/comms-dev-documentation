@@ -10,7 +10,7 @@ The Drupal module provides a target element where the React app will initialize.
 
 ### Drupal Module Notes
 
-Examples are below, including a step-by-step tutorial. The Drupal module creates a unique block type that can be placed into any Drupal node in whatever manner you place blocks (Block Layout, Layout Builder, etc.) 
+Examples are below, including a step-by-step tutorial. The Drupal module creates a unique block type that can be placed into any Drupal node, in whatever manner you place blocks (Block Layout, Layout Builder, etc.) 
 
 ## Self Contained JS Apps Hosted On Pantheon But Not Integrated Into Drupal
 
