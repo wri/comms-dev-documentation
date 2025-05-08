@@ -2,7 +2,7 @@
 
 ## Guidelines for React Apps using a Drupal Module Wrapper
 
-Our prefered solution is to create a Drupal Module (example code below) to generate blocks within the CMS that can then be added to page content.
+Prefered solution: Drupal Module (example code below) to generate blocks within the CMS that can then be added to page content.
 
 ### React Notes
 
