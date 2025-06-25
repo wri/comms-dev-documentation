@@ -4,19 +4,21 @@ The standard solution for data visualizations in WRI Comms is to build them in F
 
 The following are guidelines for alternate solutions to including js-based data visuaizations in our Drupal sites. 
 
-## Guidelines for React Apps using a Drupal Module Wrapper
+## Guidelines for React Apps Using a Drupal Module Wrapper
 
-Prefered solution. A Drupal Module (example code below) to generate content blocks that can be added to page content in the CMS.
+### Preferred Solution
 
-### React Notes
+Use a custom **Drupal module** (example code provided below) to generate content blocks that can be embedded into page content via the CMS.
 
-The Drupal module provides a target element where the React app will initialize. Any js framework could be used, but React is our prefered framework. 
+### React Integration Notes
+
+- The Drupal module provides a **target DOM element** where the React app will be initialized.
+- While any JavaScript framework can be used, **React is the preferred choice** for this setup.
 
 ### Drupal Module Notes
 
-Examples are below, including a step-by-step tutorial. 
-
-The Drupal module creates a unique content block that can be placed into any Drupal node, in whatever manner the site is configured (Block Layout, Layout Builder, etc.) 
+- Example implementations and a step-by-step tutorial are included below.
+- The module creates a **unique content block** that can be placed into any Drupal node, depending on how the site is configured (e.g., via **Block Layout**, **Layout Builder**, etc.).
 
 ## Alternate Solution: Self-Contained JavaScript Applications Hosted on Pantheon (Not Integrated with CMS/Drupal)
 
