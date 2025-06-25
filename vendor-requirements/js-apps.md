@@ -1,40 +1,65 @@
 # Integrating Data Visualizations into WRI's Drupal Sites
 
+The standard solution for data visualizations in WRI Comms is to build them in Flourish. 
+
+The following are guidelines for alternate solutions to including js-based data visuaizations in our Drupal sites. 
+
 ## Guidelines for React Apps using a Drupal Module Wrapper
 
-Prefered solution: Drupal Module (example code below) to generate blocks within the CMS that can then be added to page content.
+Prefered solution. A Drupal Module (example code below) to generate content blocks that can be added to page content in the CMS.
 
 ### React Notes
 
-The Drupal module provides a target element where the React app will initialize. 
+The Drupal module provides a target element where the React app will initialize. Any js framework could be used, but React is our prefered framework. 
 
 ### Drupal Module Notes
 
-Examples are below, including a step-by-step tutorial. The Drupal module creates a unique block type that can be placed into any Drupal node, in whatever manner you place blocks (Block Layout, Layout Builder, etc.) 
+Examples are below, including a step-by-step tutorial. 
 
-## Alternate Solution: Self Contained JS Apps Hosted On Pantheon, Not Integrated Into the CMS/Drupal
+The Drupal module creates a unique content block that can be placed into any Drupal node, in whatever manner the site is configured (Block Layout, Layout Builder, etc.) 
 
-A solution for data visualizations and interactive graphics to be used as free standing apps, or embedded content. Apps need to be built/compiled as a set of self-contained files running as html/js/css (no server requirements or dependencies). 
+## Alternate Solution: Self-Contained JavaScript Applications Hosted on Pantheon (Not Integrated with CMS/Drupal)
+
+This approach supports data visualizations and interactive graphics as standalone applications or embeddable content. These apps are built and compiled as self-contained static files—HTML, JavaScript, and CSS—with no server-side dependencies.
+
+---
 
 ## Requirements
 
-Regardless of how the app is compiled, the production build needs to be a set of static files (html/js/css) with no server requirements or dependencies. Any external libraries can be pulled in via cdn or included in the codebase. 
+Regardless of the build process, the final production output must consist solely of static files (`.html`, `.js`, `.css`). These files should:
 
-Essentially, the app are flat files that can either run within a directory on the server, or embedded into the content field of the CMS.
+- Have **no server-side dependencies**
+- Load any external libraries via **CDN** or include them directly in the codebase
 
-### Free Standing Apps
+The resulting app should function as a flat-file package that can either:
 
-The files are called from the file directory (i.e. wri.org/applications/[app-name]/index.html) and all assets and resources (js, css, and files) need to pull from within that directory and not the site root.
+- Run independently in a server directory, or
+- Be embedded within a CMS content field
 
-The app would need to be themed: a header, footer, and nav.
+---
 
-The app would need to include anatlytics (GTM) and a consent management tool (Osano).
+### 🧭 Standalone Applications
 
-### Embedded Apps
+- **Hosting**: Files are served from a dedicated directory  
+  _Example_: `wri.org/applications/[app-name]/index.html`
+- **Asset Loading**: All assets (JS, CSS, images, etc.) must load from within the app’s directory—not from the site root
+- **Theming**: Each app must include its own:
+  - Header
+  - Footer
+  - Navigation
+- **Tracking & Compliance**:
+  - Integrate **Google Tag Manager (GTM)**
+  - Include a **consent management tool** (e.g., Osano)
 
-The entirety of the code would need to be added to the content area of the CMS, including calls for external libraries. 
+---
 
-As embedded content the app would inherit the theming of the CMS, and would need to work within the breakpoints and widths of the content view.
+### 🔗 Embedded Applications
+
+- **Integration**: The entire app (including external library calls) must be included directly in the CMS content area
+- **Styling**: The app will inherit the CMS’s theme and must adapt to:
+  - CMS layout
+  - Breakpoints
+  - Content widths
 
 ## Testing
 
