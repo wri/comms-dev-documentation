@@ -1,0 +1,133 @@
+.story {
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: row;
+    max-width: 90%;
+}
+.story.fullWidth {
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+    display: block;
+    max-width: auto;
+}
+.story .images {
+    flex: 0 0 60%;
+    max-width: 60%;
+    position: relative;
+    min-width: 0;
+}
+.story.fullWidth .images {
+  position: absolute;
+  min-width: 0;
+  max-width: 100%;
+  top: 0; right: 0; bottom: 0; left: 0;
+  padding: 100px;
+}
+.story .content {
+  flex: 0 0 40%;
+  padding: 400px 0;
+}
+.story.fullWidth .content {
+  padding: 400px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+.story .content .box {
+    position: relative;
+    padding: 30px 30px;
+    margin: 800px 0 1200px 0;
+    /* border: lightslategray 1px solid; */
+    filter: drop-shadow(0 0 .5rem rgba(214, 214, 214, 0.5));
+    background: #fff;
+    z-index: 5000; 
+}
+.story .content .box:last-child {
+    margin: 800px 0 900px 0;
+}
+.story .content p { 
+    margin: 0; 
+    padding: 0; 
+}
+.bigger{
+    font-size: 18px;
+    line-height: 42px;
+    margin-bottom: 100px;
+}
+.story .images .sticky {
+  min-width: 0;
+  top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100vh;
+}
+.story .images .sticky img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s linear;
+    margin: 20px;
+}
+.story .images .sticky div {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.story .images .sticky img.active, .story .images .sticky img.active-initial, .story .images .sticky div.active, .story .images .sticky div.active-initial {
+opacity: 1; z-index: 500;
+}
+
+@media (max-width: 800px) {
+    .onlyText {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .story,
+    .story.fullWidth {
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 100px;
+        display: block;
+        max-width: 100%;
+    }   
+    .bigger{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 100px;
+}    
+    .story .images,
+    .story.fullWidth .images {
+        position: absolute;
+        min-width: 0;
+        max-width: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 0px;
+    }    
+    .story .images .sticky img{
+      margin: 0px;
+    }
+    .story .content,
+    .story.fullWidth .content {
+        padding: 400px 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+#tray-nav-wrapper {
+overflow: unset !important;
+}
