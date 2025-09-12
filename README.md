@@ -7,6 +7,8 @@ We use the github team "Comms Webteam" for access.
 
 Refer to the WRI Digital Portfolio spreadsheet for more information on web sites and tools.
 
-## security
+## Security
+
+Cloudflare implementation is in the private repo xxxx
 
 Note the Web Security Incident Response Plan (wri.org): https://onewri-my.sharepoint.com/:w:/g/personal/christian_aldridge_wri_org/ERf4yhLT8xlFh4nnoyz5hRIBUjHvev35zdmDdsgS4gdgUg?e=9PWg2g (read-only link restricted to WRI org accounts)
