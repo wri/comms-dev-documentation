@@ -101,7 +101,7 @@ Strategy and Guidelines
 
 -   Preferences 
 
-    -   Drupal and WordPress sites should be hosted on Pantheon with the WRI account. Other properties and tools should be hosted on AWS with the WRI Comms account. 
+    -   Drupal and WordPress sites should be hosted on Pantheon under the WRI Comms account. Other properties and tools should be hosted on AWS with the WRI Comms account. 
 
         -   For exceptions to our prefered hosting solution (Pantheon) we will need access to the code repository.
 
@@ -150,6 +150,8 @@ Strategy and Guidelines
         -   Avoid pre-made themes (eg. the types of things you find on https://themeforest.net/) as they come bundled and bloated with extra software that most sites will never use
 
         -   Limit Plugins to a bare minimum, creating functionality within functions.php where possible
+     
+        -   Forms: use the Contact Form 7 plugin, avoid Gravity Forms or other plugins that require paid accounts. For integration with our tools (like Ortto) we need to be able to set the machine name of the fields. 
 
         -   Plugin Recommendations for consistency across WRI sites: Yoast SEO, Gravity Forms (and Gravity Forms reCAPTCHA Add-On), Redirection, ReCaptcha Pro by BestWebSoft
 
