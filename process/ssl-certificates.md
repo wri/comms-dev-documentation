@@ -15,6 +15,8 @@ We maintain our wildcard cert with DigiCert.
     * Run ``` openssl req -in wri_cert.csr -noout -text ``` and verify your info, crucially the Common Name: "CN = *.wri.org"
     * Run ``` cat wri_cert.csr ``` to output the CSR block
   * Log into digicert and renew. Use the key provided by the CSR request.
+  * Download the certs as crt (zipped).
+  * Copy the private key from the 'redirect server' ``` cat wri_cert.key ```
   * Certs are stored on OneDrive: Digital Team Web Development -> certs -> wri.org
   * Example: on the AWS EC2 'redirect server' these 3 files need to be replaced:
     * SSLCertificateFile /var/www/wri_cert/worldresources.crt (wildcard cert) = replace with 'star_wri_org.crt'
