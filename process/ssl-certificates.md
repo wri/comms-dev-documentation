@@ -16,7 +16,7 @@ We maintain our wildcard cert with DigiCert.
   * Certs are stored on OneDrive: Digital Team Web Development -> certs -> wri.org
   * Example: on the AWS EC2 'redirect server' these 3 files need to be replaced:
     * SSLCertificateFile /var/www/wri_cert/worldresources.crt (wildcard cert) = replace with 'star_wri_org.crt'
-    * SLCertificateKeyFile /var/www/wri_cert/worldresources.key (private key) = replace with wri_cert.key (or whatever filename forthe private key generated at the time of the CSR)
+    * SLCertificateKeyFile /var/www/wri_cert/worldresources.key (private key) = replace with wri_cert.key (or whatever filename for the private key generated at the time of the CSR)
     * SSLCertificateChainFile /var/www/wri_cert/DigiCertCA.crt (intermediary cert) = replace with 'DigiCertCA.crt'
 
 Sites using the wildcard:
