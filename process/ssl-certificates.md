@@ -13,6 +13,7 @@ We maintain our wildcard cert with DigiCert.
     * ``` $ openssl req -new -newkey rsa:2048 -nodes -keyout wri_cert.key -out wri_cert.csr ``` 
     * Common Name (CN) is the "fully qualified domain name (FQDN)", set this as "*.wri.org" (no quotes)
     * Run ``` openssl req -in wri_cert.csr -noout -text ``` and verify your info, crucially the Common Name: "CN = *.wri.org"
+    * Run ``` cat wri_cert.csr ``` to output the CSR block
   * Log into digicert and renew. Use the key provided by the CSR request.
   * Certs are stored on OneDrive: Digital Team Web Development -> certs -> wri.org
   * Example: on the AWS EC2 'redirect server' these 3 files need to be replaced:
