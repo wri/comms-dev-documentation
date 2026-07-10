@@ -91,6 +91,10 @@ Strategy and Guidelines
         - Pantheon Upstream should be used for Drupal Core and WordPress.
      
         - No custom Upstreams on Pantheon, or custom distributions
+          
+        - Pantheon Advanced Page Cache: use this plugin/module to integrate content caching with Pntheon's caching layer:
+          - Drupal: https://www.drupal.org/project/pantheon_advanced_page_cache (composer require drupal/pantheon_advanced_page_cache)
+          - WordPress: https://wordpress.org/plugins/pantheon-advanced-page-cache
 
         - Pantheon limits Write Access on their production environments for security (best practice):
 
@@ -114,8 +118,6 @@ Strategy and Guidelines
         -   Atomic design principles: we prefer atomic design principles for the design elements and styleguide.
         
         -   Open source webfonts (i.e. not Typekit): Unless proprietary fonts are required by the brand or existing styleguide, use open source webfonts.
-
-        -   (if Drupal) Drupal Layout Builder: use Layout Builder for layout and content cusotmization.
         
         -   (if Drupal) Retain Drupal's base content types: create new content types as needed, but retain the base content types for standardization and future planning.
 
@@ -124,8 +126,6 @@ Strategy and Guidelines
     -   (if Drupal) Drupal modules: 
 
         -   Limit community modules to bare minimum. Do include the following: 
-
-            -   Drupal Layout Builder preferred (<https://dri.es/why-drupal-layout-builder-is-so-unique-and-powerful>)
 
             -   Redirect <https://www.drupal.org/project/redirect> 
 
