@@ -7,6 +7,10 @@ We use the github team "Comms Webteam" for access.
 
 Refer to the WRI Digital Portfolio spreadsheet for more information on web sites and tools.
 
+## Claude Code skills
+
+Shared, non-project-specific Claude Code skills (e.g. a Drupal/Pantheon security audit) live in [`claude/`](claude/README.md).
+
 ## Security
 
 Cloudflare implementation is in the private repo "comms-cloudflare" https://github.com/wri/comms-cloudflare/tree/main
